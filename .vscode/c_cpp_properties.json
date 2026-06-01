@@ -1,0 +1,26 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "IntelliSense Configuration",
+      "compileCommands": [
+        "${workspaceFolder}/debug/compile_commands.json"
+      ],
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/edge_ai_vibration_cm33_core0/cm33_core0",
+        "${workspaceFolder}/../sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/Core/Include",
+        "${workspaceFolder}/../sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Include",
+        "${workspaceFolder}/../sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/debug_console_lite",
+        "${workspaceFolder}/../sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/common",
+        "${workspaceFolder}/../sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947",
+        "${workspaceFolder}/../sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947"
+      ],
+      "compilerPath": "${userHome}/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc.exe",
+      "intelliSenseMode": "gcc-arm",
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ]
+}

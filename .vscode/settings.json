@@ -1,0 +1,14 @@
+{
+  "cmake.configureOnOpen": false,
+  "cmake.useCMakePresets": "always",
+  "cmake.buildTask": true,
+  "cmake.skipConfigureIfCachePresent": true,
+  "cmake.sourceDirectory": "${workspaceFolder}/",
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.files.exclude": {
+    "**/.vscode": true,
+    "**/__repo__": true
+  },
+  "C_Cpp.exclusionPolicy": "checkFolders"
+}
