@@ -18,3 +18,4 @@ Use MCUXpresso IDE or CMake to build the project.
 
 ## License
 BSD-3-Clause
+"# RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947" 

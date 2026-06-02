@@ -5,11 +5,14 @@
  */
 #include "arm_math.h"
 #include "dsp.h"
+#include "fsl_debug_console.h"
 
 float signal_buffer[FFT_SIZE];
 
 void generate_signal(void)
 {
+    PRINTF(">>> Generating signal (size=%d)...\r\n", FFT_SIZE);
+
     for (int i = 0; i < FFT_SIZE; i++)
     {
         float t = (float)i / FFT_SIZE;
@@ -23,4 +26,11 @@ void generate_signal(void)
         }
 #endif
     }
+
+#if SIGNAL_ENABLE_ANOMALY
+    PRINTF("Signal generated with ANOMALY injection (indices %d-%d)\r\n", 
+           SIGNAL_ANOMALY_START, SIGNAL_ANOMALY_END);
+#else
+    PRINTF("Signal generated (NORMAL - no anomaly)\r\n");
+#endif
 }

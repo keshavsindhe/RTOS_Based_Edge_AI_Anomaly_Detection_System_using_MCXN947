@@ -15,12 +15,16 @@ void extract_features(void)
 {
     uint32_t max_index = 0U;
 
+    PRINTF(">>> Extracting features...\r\n");
+
     arm_rms_f32(signal_buffer, FFT_SIZE, &feature_rms);
 
     fft_magnitude[0] = (fft_output[0] >= 0.0f) ? fft_output[0] : -fft_output[0];
     arm_cmplx_mag_f32(&fft_output[2], &fft_magnitude[1], (FFT_SIZE / 2U) - 1U);
     arm_max_f32(fft_magnitude, FFT_SIZE / 2U, &feature_fft_peak, &max_index);
 
-    PRINTF("RMS: %.2f\r\n", (double)feature_rms);
-    PRINTF("FFT Peak: %.2f\r\n", (double)feature_fft_peak);
+    PRINTF("--- Feature Results ---\r\n");
+    PRINTF("RMS Value: %.4f\r\n", (double)feature_rms);
+    PRINTF("FFT Peak: %.4f at index %lu\r\n", (double)feature_fft_peak, max_index);
+    PRINTF("Features extraction complete\r\n");
 }

@@ -3654,7 +3654,7 @@ LOAD C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64
                 0x00000000                __Vectors
                 0x000002b0                        . = ALIGN (0x4)
 
-.text           0x00000400    0x1ba24
+.text           0x00000400    0x1bfc0
                 0x00000400                        . = ALIGN (0x4)
  *(.text)
  .text          0x00000400       0x7c C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crt0.o
@@ -4350,309 +4350,314 @@ LOAD C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64
                 0x00006b3c                HAL_UartSendBlocking
  .text.print_startup_diagnostics
                 0x00006bc0       0xc0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
- .text.main     0x00006c80       0x58 CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
+ .text.main     0x00006c80       0xa0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
                 0x00006c80                main
  .text.generate_signal
-                0x00006cd8       0x94 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
-                0x00006cd8                generate_signal
- .text.run_fft  0x00006d6c       0x3c CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
-                0x00006d6c                run_fft
+                0x00006d20       0xb0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
+                0x00006d20                generate_signal
+ .text.run_fft  0x00006dd0       0xf8 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
+                0x00006dd0                run_fft
  .text.extract_features
-                0x00006da8       0xa8 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
-                0x00006da8                extract_features
+                0x00006ec8       0xcc CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
+                0x00006ec8                extract_features
  .text.detect_anomaly
-                0x00006e50       0x58 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
-                0x00006e50                detect_anomaly
- .text.exit     0x00006ea8       0x24 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
-                0x00006ea8                exit
- .text.memset   0x00006ecc       0x10 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
-                0x00006ecc                memset
+                0x00006f94      0x17c CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
+                0x00006f94                detect_anomaly
+ .text.exit     0x00007110       0x24 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
+                0x00007110                exit
+ .text.memset   0x00007134       0x10 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
+                0x00007134                memset
  .text.__libc_init_array
-                0x00006edc       0x48 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
-                0x00006edc                __libc_init_array
+                0x00007144       0x48 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
+                0x00007144                __libc_init_array
  .text.__fixunssfdi
-                0x00006f24       0x40 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_fixunssfdi.o)
-                0x00006f24                __fixunssfdi
-                0x00006f24                __aeabi_f2ulz
+                0x0000718c       0x40 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_fixunssfdi.o)
+                0x0000718c                __fixunssfdi
+                0x0000718c                __aeabi_f2ulz
  .text.__udivmoddi4
-                0x00006f64      0x34c C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_udivmoddi4.o)
-                0x00006f64                __udivmoddi4
- .text._exit    0x000072b0        0x4 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libnosys.a(_exit.o)
-                0x000072b0                _exit
+                0x000071cc      0x34c C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_udivmoddi4.o)
+                0x000071cc                __udivmoddi4
+ .text._exit    0x00007518        0x4 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libnosys.a(_exit.o)
+                0x00007518                _exit
  *(.rodata)
- .rodata        0x000072b4      0x12c CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.c.obj
- .rodata        0x000073e0       0xb2 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_reset.c.obj
- *fill*         0x00007492        0x2 
- .rodata        0x00007494       0xc2 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/clock_config.c.obj
- *fill*         0x00007556        0x2 
- .rodata        0x00007558      0x117 CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/pin_mux.c.obj
- *fill*         0x0000766f        0x1 
- .rodata        0x00007670       0xa0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/63409d9591190ff722d6dfe567ea76bb/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/cm33_core0/hardware_init.c.obj
- .rodata        0x00007710       0xc4 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/common/fsl_common_arm.c.obj
- .rodata        0x000077d4      0x1a2 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
- *fill*         0x00007976        0x2 
- .rodata        0x00007978       0xbb CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
- *fill*         0x00007a33        0x1 
- .rodata        0x00007a34      0x22e CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
- *fill*         0x00007c62        0x2 
- .rodata        0x00007c64       0x3e CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/assert/fsl_assert.c.obj
- *fill*         0x00007ca2        0x2 
- .rodata        0x00007ca4      0x138 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- .rodata        0x00007ddc       0x7a CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
- *fill*         0x00007e56        0x2 
- .rodata        0x00007e58       0x1d CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
- *fill*         0x00007e75        0x3 
- .rodata        0x00007e78       0x24 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
+ .rodata        0x0000751c      0x12c CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.c.obj
+ .rodata        0x00007648       0xb2 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_reset.c.obj
+ *fill*         0x000076fa        0x2 
+ .rodata        0x000076fc       0xc2 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/clock_config.c.obj
+ *fill*         0x000077be        0x2 
+ .rodata        0x000077c0      0x117 CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/pin_mux.c.obj
+ *fill*         0x000078d7        0x1 
+ .rodata        0x000078d8       0xa0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/63409d9591190ff722d6dfe567ea76bb/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/cm33_core0/hardware_init.c.obj
+ .rodata        0x00007978       0xc4 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/common/fsl_common_arm.c.obj
+ .rodata        0x00007a3c      0x1a2 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
+ *fill*         0x00007bde        0x2 
+ .rodata        0x00007be0       0xbb CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
+ *fill*         0x00007c9b        0x1 
+ .rodata        0x00007c9c      0x22e CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
+ *fill*         0x00007eca        0x2 
+ .rodata        0x00007ecc       0x3e CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/assert/fsl_assert.c.obj
+ *fill*         0x00007f0a        0x2 
+ .rodata        0x00007f0c      0x138 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+ .rodata        0x00008044      0x15f CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
+ *fill*         0x000081a3        0x1 
+ .rodata        0x000081a4       0x62 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
+ *fill*         0x00008206        0x2 
+ .rodata        0x00008208       0x8a CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
+ *fill*         0x00008292        0x2 
+ .rodata        0x00008294       0x8f CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
+ *fill*         0x00008323        0x1 
+ .rodata        0x00008324      0x111 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
  *(.rodata*)
+ *fill*         0x00008435        0x3 
  .rodata.__func__.2
-                0x00007e9c       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.c.obj
+                0x00008438       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.c.obj
  .rodata.__func__.0
-                0x00007eac       0x1b CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_reset.c.obj
- *fill*         0x00007ec7        0x1 
+                0x00008448       0x1b CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_reset.c.obj
+ *fill*         0x00008463        0x1 
  .rodata.twiddleCoef_16
-                0x00007ec8       0x80 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00007ec8                twiddleCoef_16
+                0x00008464       0x80 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x00008464                twiddleCoef_16
  .rodata.twiddleCoef_32
-                0x00007f48      0x100 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00007f48                twiddleCoef_32
+                0x000084e4      0x100 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000084e4                twiddleCoef_32
  .rodata.twiddleCoef_64
-                0x00008048      0x200 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00008048                twiddleCoef_64
+                0x000085e4      0x200 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000085e4                twiddleCoef_64
  .rodata.twiddleCoef_128
-                0x00008248      0x400 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00008248                twiddleCoef_128
+                0x000087e4      0x400 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000087e4                twiddleCoef_128
  .rodata.twiddleCoef_256
-                0x00008648      0x800 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00008648                twiddleCoef_256
+                0x00008be4      0x800 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x00008be4                twiddleCoef_256
  .rodata.twiddleCoef_512
-                0x00008e48     0x1000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00008e48                twiddleCoef_512
+                0x000093e4     0x1000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000093e4                twiddleCoef_512
  .rodata.twiddleCoef_1024
-                0x00009e48     0x2000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00009e48                twiddleCoef_1024
+                0x0000a3e4     0x2000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0000a3e4                twiddleCoef_1024
  .rodata.twiddleCoef_2048
-                0x0000be48     0x4000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0000be48                twiddleCoef_2048
+                0x0000c3e4     0x4000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0000c3e4                twiddleCoef_2048
  .rodata.armBitRevIndexTable16
-                0x0000fe48       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0000fe48                armBitRevIndexTable16
+                0x000103e4       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000103e4                armBitRevIndexTable16
  .rodata.armBitRevIndexTable32
-                0x0000fe70       0x60 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0000fe70                armBitRevIndexTable32
+                0x0001040c       0x60 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001040c                armBitRevIndexTable32
  .rodata.armBitRevIndexTable64
-                0x0000fed0       0x70 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0000fed0                armBitRevIndexTable64
+                0x0001046c       0x70 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001046c                armBitRevIndexTable64
  .rodata.armBitRevIndexTable128
-                0x0000ff40      0x1a0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0000ff40                armBitRevIndexTable128
+                0x000104dc      0x1a0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000104dc                armBitRevIndexTable128
  .rodata.armBitRevIndexTable256
-                0x000100e0      0x370 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x000100e0                armBitRevIndexTable256
+                0x0001067c      0x370 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001067c                armBitRevIndexTable256
  .rodata.armBitRevIndexTable512
-                0x00010450      0x380 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00010450                armBitRevIndexTable512
+                0x000109ec      0x380 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000109ec                armBitRevIndexTable512
  .rodata.armBitRevIndexTable1024
-                0x000107d0      0xe10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x000107d0                armBitRevIndexTable1024
+                0x00010d6c      0xe10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x00010d6c                armBitRevIndexTable1024
  .rodata.armBitRevIndexTable2048
-                0x000115e0     0x1dc0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x000115e0                armBitRevIndexTable2048
+                0x00011b7c     0x1dc0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x00011b7c                armBitRevIndexTable2048
  .rodata.twiddleCoef_rfft_32
-                0x000133a0       0x80 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x000133a0                twiddleCoef_rfft_32
+                0x0001393c       0x80 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001393c                twiddleCoef_rfft_32
  .rodata.twiddleCoef_rfft_64
-                0x00013420      0x100 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00013420                twiddleCoef_rfft_64
+                0x000139bc      0x100 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000139bc                twiddleCoef_rfft_64
  .rodata.twiddleCoef_rfft_128
-                0x00013520      0x200 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00013520                twiddleCoef_rfft_128
+                0x00013abc      0x200 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x00013abc                twiddleCoef_rfft_128
  .rodata.twiddleCoef_rfft_256
-                0x00013720      0x400 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00013720                twiddleCoef_rfft_256
+                0x00013cbc      0x400 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x00013cbc                twiddleCoef_rfft_256
  .rodata.twiddleCoef_rfft_512
-                0x00013b20      0x800 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00013b20                twiddleCoef_rfft_512
+                0x000140bc      0x800 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000140bc                twiddleCoef_rfft_512
  .rodata.twiddleCoef_rfft_1024
-                0x00014320     0x1000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00014320                twiddleCoef_rfft_1024
+                0x000148bc     0x1000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000148bc                twiddleCoef_rfft_1024
  .rodata.twiddleCoef_rfft_2048
-                0x00015320     0x2000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00015320                twiddleCoef_rfft_2048
+                0x000158bc     0x2000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000158bc                twiddleCoef_rfft_2048
  .rodata.twiddleCoef_rfft_4096
-                0x00017320     0x4000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x00017320                twiddleCoef_rfft_4096
+                0x000178bc     0x4000 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x000178bc                twiddleCoef_rfft_4096
  .rodata.sinTable_f32
-                0x0001b320      0x804 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0001b320                sinTable_f32
+                0x0001b8bc      0x804 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001b8bc                sinTable_f32
  .rodata.arm_cfft_sR_f32_len16
-                0x0001bb24       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0001bb24                arm_cfft_sR_f32_len16
+                0x0001c0c0       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001c0c0                arm_cfft_sR_f32_len16
  .rodata.arm_cfft_sR_f32_len32
-                0x0001bb34       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0001bb34                arm_cfft_sR_f32_len32
+                0x0001c0d0       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001c0d0                arm_cfft_sR_f32_len32
  .rodata.arm_cfft_sR_f32_len64
-                0x0001bb44       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0001bb44                arm_cfft_sR_f32_len64
+                0x0001c0e0       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001c0e0                arm_cfft_sR_f32_len64
  .rodata.arm_cfft_sR_f32_len128
-                0x0001bb54       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0001bb54                arm_cfft_sR_f32_len128
+                0x0001c0f0       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001c0f0                arm_cfft_sR_f32_len128
  .rodata.arm_cfft_sR_f32_len256
-                0x0001bb64       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0001bb64                arm_cfft_sR_f32_len256
+                0x0001c100       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001c100                arm_cfft_sR_f32_len256
  .rodata.arm_cfft_sR_f32_len512
-                0x0001bb74       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0001bb74                arm_cfft_sR_f32_len512
+                0x0001c110       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001c110                arm_cfft_sR_f32_len512
  .rodata.arm_cfft_sR_f32_len1024
-                0x0001bb84       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0001bb84                arm_cfft_sR_f32_len1024
+                0x0001c120       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001c120                arm_cfft_sR_f32_len1024
  .rodata.arm_cfft_sR_f32_len2048
-                0x0001bb94       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
-                0x0001bb94                arm_cfft_sR_f32_len2048
+                0x0001c130       0x10 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+                0x0001c130                arm_cfft_sR_f32_len2048
  .rodata.__func__.0
-                0x0001bba4       0x12 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/clock_config.c.obj
- *fill*         0x0001bbb6        0x2 
+                0x0001c140       0x12 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/clock_config.c.obj
+ *fill*         0x0001c152        0x2 
  .rodata.__func__.1
-                0x0001bbb8       0x12 CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/pin_mux.c.obj
- *fill*         0x0001bbca        0x2 
+                0x0001c154       0x12 CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/pin_mux.c.obj
+ *fill*         0x0001c166        0x2 
  .rodata.__func__.0
-                0x0001bbcc       0x12 CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/pin_mux.c.obj
- *fill*         0x0001bbde        0x2 
+                0x0001c168       0x12 CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/pin_mux.c.obj
+ *fill*         0x0001c17a        0x2 
  .rodata.__func__.0
-                0x0001bbe0       0x12 CMakeFiles/edge_ai_vibration_cm33_core0.dir/63409d9591190ff722d6dfe567ea76bb/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/cm33_core0/hardware_init.c.obj
- *fill*         0x0001bbf2        0x2 
+                0x0001c17c       0x12 CMakeFiles/edge_ai_vibration_cm33_core0.dir/63409d9591190ff722d6dfe567ea76bb/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/cm33_core0/hardware_init.c.obj
+ *fill*         0x0001c18e        0x2 
  .rodata.__func__.0
-                0x0001bbf4       0x13 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/common/fsl_common_arm.c.obj
- *fill*         0x0001bc07        0x1 
+                0x0001c190       0x13 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/common/fsl_common_arm.c.obj
+ *fill*         0x0001c1a3        0x1 
  .rodata.s_lpflexcommBase
-                0x0001bc08       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
+                0x0001c1a4       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
  .rodata.s_lpflexcommClocks
-                0x0001bc30       0x14 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
+                0x0001c1cc       0x14 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
  .rodata.s_lpflexcommResets
-                0x0001bc44       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
+                0x0001c1e0       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
  .rodata.__func__.5
-                0x0001bc6c       0x16 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
- *fill*         0x0001bc82        0x2 
+                0x0001c208       0x16 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
+ *fill*         0x0001c21e        0x2 
  .rodata.__func__.4
-                0x0001bc84       0x11 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
- *fill*         0x0001bc95        0x3 
+                0x0001c220       0x11 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
+ *fill*         0x0001c231        0x3 
  .rodata.__func__.3
-                0x0001bc98       0x12 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
- *fill*         0x0001bcaa        0x2 
+                0x0001c234       0x12 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
+ *fill*         0x0001c246        0x2 
  .rodata.__func__.9
-                0x0001bcac       0x1a CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
- *fill*         0x0001bcc6        0x2 
+                0x0001c248       0x1a CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
+ *fill*         0x0001c262        0x2 
  .rodata.__func__.5
-                0x0001bcc8       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
+                0x0001c264       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
  .rodata.__func__.3
-                0x0001bcf0       0x25 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
- *fill*         0x0001bd15        0x3 
+                0x0001c28c       0x25 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
+ *fill*         0x0001c2b1        0x3 
  .rodata.s_lpuartBases
-                0x0001bd18       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
+                0x0001c2b4       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
  .rodata.__func__.25
-                0x0001bd40       0x13 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
- *fill*         0x0001bd53        0x1 
+                0x0001c2dc       0x13 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
+ *fill*         0x0001c2ef        0x1 
  .rodata.__func__.18
-                0x0001bd54        0xc CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
+                0x0001c2f0        0xc CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
  .rodata.__func__.17
-                0x0001bd60       0x18 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
+                0x0001c2fc       0x18 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
  .rodata.__func__.13
-                0x0001bd78       0x15 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
- *fill*         0x0001bd8d        0x3 
+                0x0001c314       0x15 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
+ *fill*         0x0001c329        0x3 
  .rodata.__func__.11
-                0x0001bd90       0x14 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
+                0x0001c32c       0x14 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
  .rodata.s_LpuartAdapterBase
-                0x0001bda4       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+                0x0001c340       0x28 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
  .rodata.__func__.4
-                0x0001bdcc        0xd CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- *fill*         0x0001bdd9        0x3 
+                0x0001c368        0xd CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+ *fill*         0x0001c375        0x3 
  .rodata.__func__.2
-                0x0001bddc       0x18 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+                0x0001c378       0x18 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
  .rodata.__func__.1
-                0x0001bdf4       0x15 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+                0x0001c390       0x15 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
  *(.glue_7)
- .glue_7        0x0001be09        0x0 linker stubs
+ .glue_7        0x0001c3a5        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0001be09        0x0 linker stubs
+ .glue_7t       0x0001c3a5        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x0001be09        0x3 
- .eh_frame      0x0001be0c        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ *fill*         0x0001c3a5        0x3 
+ .eh_frame      0x0001c3a8        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
  *(.init)
- .init          0x0001be0c        0x4 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crti.o
-                0x0001be0c                _init
- .init          0x0001be10        0x8 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtn.o
+ .init          0x0001c3a8        0x4 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crti.o
+                0x0001c3a8                _init
+ .init          0x0001c3ac        0x8 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtn.o
  *(.fini)
- .fini          0x0001be18        0x4 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crti.o
-                0x0001be18                _fini
- .fini          0x0001be1c        0x8 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtn.o
-                0x0001be24                        . = ALIGN (0x4)
+ .fini          0x0001c3b4        0x4 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crti.o
+                0x0001c3b4                _fini
+ .fini          0x0001c3b8        0x8 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtn.o
+                0x0001c3c0                        . = ALIGN (0x4)
 
-.vfp11_veneer   0x0001be24        0x0
- .vfp11_veneer  0x0001be24        0x0 linker stubs
+.vfp11_veneer   0x0001c3c0        0x0
+ .vfp11_veneer  0x0001c3c0        0x0 linker stubs
 
-.v4_bx          0x0001be24        0x0
- .v4_bx         0x0001be24        0x0 linker stubs
+.v4_bx          0x0001c3c0        0x0
+ .v4_bx         0x0001c3c0        0x0 linker stubs
 
-.iplt           0x0001be24        0x0
- .iplt          0x0001be24        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+.iplt           0x0001c3c0        0x0
+ .iplt          0x0001c3c0        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0001be24        0x8
-                0x0001be24                        __exidx_start = .
+.ARM            0x0001c3c0        0x8
+                0x0001c3c0                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0001be24        0x8 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crt0.o
+ .ARM.exidx     0x0001c3c0        0x8 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crt0.o
                                  0x10 (size before relaxing)
- .ARM.exidx     0x0001be2c        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strlen.o)
+ .ARM.exidx     0x0001c3c8        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
  .ARM.exidx.text.__udivmoddi4
-                0x0001be2c        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_udivmoddi4.o)
+                0x0001c3c8        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x0001be2c                        __exidx_end = .
+                0x0001c3c8                        __exidx_end = .
 
-.rel.dyn        0x0001be2c        0x0
- .rel.iplt      0x0001be2c        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+.rel.dyn        0x0001c3c8        0x0
+ .rel.iplt      0x0001c3c8        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.ctors          0x0001be2c        0x0
-                0x0001be2c                        __CTOR_LIST__ = .
+.ctors          0x0001c3c8        0x0
+                0x0001c3c8                        __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x0001be2c                        __CTOR_END__ = .
+                0x0001c3c8                        __CTOR_END__ = .
 
-.dtors          0x0001be2c        0x0
-                0x0001be2c                        __DTOR_LIST__ = .
+.dtors          0x0001c3c8        0x0
+                0x0001c3c8                        __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x0001be2c                        __DTOR_END__ = .
+                0x0001c3c8                        __DTOR_END__ = .
 
-.preinit_array  0x0001be2c        0x0
-                0x0001be2c                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0001c3c8        0x0
+                0x0001c3c8                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0001be2c                        PROVIDE (__preinit_array_end = .)
+                0x0001c3c8                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0001be2c        0x4
-                0x0001be2c                        PROVIDE (__init_array_start = .)
+.init_array     0x0001c3c8        0x4
+                0x0001c3c8                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0001be2c        0x4 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
-                0x0001be30                        PROVIDE (__init_array_end = .)
+ .init_array    0x0001c3c8        0x4 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+                0x0001c3cc                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x0001be30        0x4
+.fini_array     0x0001c3cc        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0001be30        0x4 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
+ .fini_array    0x0001c3cc        0x4 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0001be34                        __etext = .
-                0x0001be34                        __DATA_ROM = .
+                0x0001c3d0                        __etext = .
+                0x0001c3d0                        __DATA_ROM = .
 
-.data           0x20000000        0xc load address 0x0001be34
+.data           0x20000000        0xc load address 0x0001c3d0
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        __DATA_RAM = .
                 0x20000000                        __data_start__ = .
@@ -4673,21 +4678,21 @@ LOAD C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64
  *(.jcr*)
                 0x2000000c                        . = ALIGN (0x4)
                 0x2000000c                        __data_end__ = .
-                0x0001be40                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x0001c3dc                        __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
                 0x000c0000                        text_end = (ORIGIN (m_text) + LENGTH (m_text))
                 0x00000001                        ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
 
 .tm_clone_table
-                0x2000000c        0x0 load address 0x0001be40
+                0x2000000c        0x0 load address 0x0001c3dc
  .tm_clone_table
                 0x2000000c        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
  .tm_clone_table
                 0x2000000c        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtend.o
 
-.igot.plt       0x2000000c        0x0 load address 0x0001be40
+.igot.plt       0x2000000c        0x0 load address 0x0001c3dc
  .igot.plt      0x2000000c        0x0 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.bss            0x2000000c      0xb98 load address 0x0001be40
+.bss            0x2000000c      0xb98 load address 0x0001c3dc
                 0x2000000c                        . = ALIGN (0x4)
                 0x2000000c                        __START_BSS = .
                 0x2000000c                        __bss_start__ = .
@@ -4731,7 +4736,7 @@ LOAD C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64
                 0x20000ba4                        __bss_end__ = .
                 0x20000ba4                        __END_BSS = .
 
-.heap           0x20000ba4      0x404 load address 0x0001c9d8
+.heap           0x20000ba4      0x404 load address 0x0001cf74
                 0x20000ba8                        . = ALIGN (0x8)
  *fill*         0x20000ba4        0x4 
                 0x20000ba8                        __end__ = .
@@ -4742,7 +4747,7 @@ LOAD C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64
                 0x20000fa8                        __HeapLimit = .
                 0x20000fa8                        __heap_limit = .
 
-.stack          0x20000fa8      0x800 load address 0x0001cddc
+.stack          0x20000fa8      0x800 load address 0x0001d378
                 0x20000fa8                        . = ALIGN (0x8)
                 0x200017a8                        . = (. + STACK_SIZE)
  *fill*         0x20000fa8      0x800 
@@ -4874,7 +4879,7 @@ LOAD linker stubs
  .debug_line_str
                 0x000003fd       0xd6 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
 
-.debug_info     0x00000000    0x2bfbe
+.debug_info     0x00000000    0x2c759
  .debug_info    0x00000000     0x196f CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/system_MCXN947_cm33_core0.c.obj
  .debug_info    0x0000196f      0xf58 CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/gcc/startup_MCXN947_cm33_core0.S.obj
  .debug_info    0x000028c7     0x514a CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.c.obj
@@ -4896,13 +4901,13 @@ LOAD linker stubs
  .debug_info    0x000297ba      0xcf3 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/debug_console_lite/fsl_debug_console.c.obj
  .debug_info    0x0002a4ad       0x25 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
  .debug_info    0x0002a4d2      0xf00 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- .debug_info    0x0002b3d2      0x275 CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
- .debug_info    0x0002b647      0x10e CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
- .debug_info    0x0002b755      0x261 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
- .debug_info    0x0002b9b6      0x50f CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
- .debug_info    0x0002bec5       0xf9 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
+ .debug_info    0x0002b3d2      0x282 CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
+ .debug_info    0x0002b654      0x48c CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
+ .debug_info    0x0002bae0      0x644 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
+ .debug_info    0x0002c124      0x50f CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
+ .debug_info    0x0002c633      0x126 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
 
-.debug_abbrev   0x00000000     0x3502
+.debug_abbrev   0x00000000     0x3593
  .debug_abbrev  0x00000000      0x1cf CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/system_MCXN947_cm33_core0.c.obj
  .debug_abbrev  0x000001cf       0x26 CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/gcc/startup_MCXN947_cm33_core0.S.obj
  .debug_abbrev  0x000001f5      0x3d2 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.c.obj
@@ -4924,11 +4929,11 @@ LOAD linker stubs
  .debug_abbrev  0x00002af3      0x25c CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/debug_console_lite/fsl_debug_console.c.obj
  .debug_abbrev  0x00002d4f       0x14 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
  .debug_abbrev  0x00002d63      0x252 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- .debug_abbrev  0x00002fb5      0x16c CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
- .debug_abbrev  0x00003121       0xbf CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
- .debug_abbrev  0x000031e0      0x134 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
- .debug_abbrev  0x00003314      0x128 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
- .debug_abbrev  0x0000343c       0xc6 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
+ .debug_abbrev  0x00002fb5      0x16d CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
+ .debug_abbrev  0x00003122      0x101 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
+ .debug_abbrev  0x00003223      0x17f CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
+ .debug_abbrev  0x000033a2      0x128 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
+ .debug_abbrev  0x000034ca       0xc9 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
 
 .debug_aranges  0x00000000     0x1438
  .debug_aranges
@@ -4985,7 +4990,7 @@ LOAD linker stubs
                 0x00001418       0x20 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
 
 .debug_rnglists
-                0x00000000      0xf5f
+                0x00000000      0xf62
  .debug_rnglists
                 0x00000000       0x20 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/system_MCXN947_cm33_core0.c.obj
  .debug_rnglists
@@ -5023,17 +5028,17 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000eb6       0x41 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
  .debug_rnglists
-                0x00000ef7       0x1a CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
+                0x00000ef7       0x1b CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
  .debug_rnglists
-                0x00000f11       0x14 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
+                0x00000f12       0x14 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
  .debug_rnglists
-                0x00000f25       0x13 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
+                0x00000f26       0x14 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
  .debug_rnglists
-                0x00000f38       0x14 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
+                0x00000f3a       0x14 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
  .debug_rnglists
-                0x00000f4c       0x13 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
+                0x00000f4e       0x14 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
 
-.debug_line     0x00000000    0x16a46
+.debug_line     0x00000000    0x16dbf
  .debug_line    0x00000000      0x4c6 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/system_MCXN947_cm33_core0.c.obj
  .debug_line    0x000004c6      0x3b9 CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/gcc/startup_MCXN947_cm33_core0.S.obj
  .debug_line    0x0000087f     0x294e CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.c.obj
@@ -5055,40 +5060,40 @@ LOAD linker stubs
  .debug_line    0x00014c27      0x8a0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/debug_console_lite/fsl_debug_console.c.obj
  .debug_line    0x000154c7       0x88 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
  .debug_line    0x0001554f      0x5f7 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- .debug_line    0x00015b46      0x456 CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
- .debug_line    0x00015f9c      0x213 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
- .debug_line    0x000161af      0x2f1 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
- .debug_line    0x000164a0      0x427 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
- .debug_line    0x000168c7      0x17f CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
+ .debug_line    0x00015b46      0x463 CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
+ .debug_line    0x00015fa9      0x418 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
+ .debug_line    0x000163c1      0x42a CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
+ .debug_line    0x000167eb      0x42a CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
+ .debug_line    0x00016c15      0x1aa CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
 
-.debug_str      0x00000000    0x117d4
- .debug_str     0x00000000    0x117d4 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/system_MCXN947_cm33_core0.c.obj
+.debug_str      0x00000000    0x117f8
+ .debug_str     0x00000000    0x117f8 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/system_MCXN947_cm33_core0.c.obj
                                0x1b23 (size before relaxing)
- .debug_str     0x000117d4     0x1ead CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/gcc/startup_MCXN947_cm33_core0.S.obj
- .debug_str     0x000117d4     0x6038 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.c.obj
- .debug_str     0x000117d4     0x152d CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_reset.c.obj
- .debug_str     0x000117d4     0x13f0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
- .debug_str     0x000117d4      0x64f CMakeFiles/edge_ai_vibration_cm33_core0.dir/6ec368020485b0a8281c521f1b91c857/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj
- .debug_str     0x000117d4      0x6a7 CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/FastMathFunctions/FastMathFunctions.c.obj
- .debug_str     0x000117d4      0x9b7 CMakeFiles/edge_ai_vibration_cm33_core0.dir/6ec368020485b0a8281c521f1b91c857/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctions.c.obj
- .debug_str     0x000117d4     0x23a5 CMakeFiles/edge_ai_vibration_cm33_core0.dir/6ec368020485b0a8281c521f1b91c857/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/TransformFunctions/TransformFunctions.c.obj
- .debug_str     0x000117d4     0x2bc1 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/board.c.obj
- .debug_str     0x000117d4     0x4044 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/clock_config.c.obj
- .debug_str     0x000117d4     0x19ff CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/pin_mux.c.obj
- .debug_str     0x000117d4     0x21c0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/63409d9591190ff722d6dfe567ea76bb/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/cm33_core0/hardware_init.c.obj
- .debug_str     0x000117d4      0x3e8 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/common/fsl_common_arm.c.obj
- .debug_str     0x000117d4     0x3733 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
- .debug_str     0x000117d4     0x1d50 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
- .debug_str     0x000117d4     0x2f70 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
- .debug_str     0x000117d4      0x2b2 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/assert/fsl_assert.c.obj
- .debug_str     0x000117d4     0x1477 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/debug_console_lite/fsl_debug_console.c.obj
- .debug_str     0x000117d4       0xc7 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
- .debug_str     0x000117d4     0x17e2 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
- .debug_str     0x000117d4      0x474 CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
- .debug_str     0x000117d4      0x234 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
- .debug_str     0x000117d4      0x3c1 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
- .debug_str     0x000117d4      0xd9b CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
- .debug_str     0x000117d4      0x237 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
+ .debug_str     0x000117f8     0x1ead CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/gcc/startup_MCXN947_cm33_core0.S.obj
+ .debug_str     0x000117f8     0x6038 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.c.obj
+ .debug_str     0x000117f8     0x152d CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_reset.c.obj
+ .debug_str     0x000117f8     0x13f0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/CommonTables/CommonTables.c.obj
+ .debug_str     0x000117f8      0x64f CMakeFiles/edge_ai_vibration_cm33_core0.dir/6ec368020485b0a8281c521f1b91c857/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj
+ .debug_str     0x000117f8      0x6a7 CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/FastMathFunctions/FastMathFunctions.c.obj
+ .debug_str     0x000117f8      0x9b7 CMakeFiles/edge_ai_vibration_cm33_core0.dir/6ec368020485b0a8281c521f1b91c857/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/StatisticsFunctions/StatisticsFunctions.c.obj
+ .debug_str     0x000117f8     0x23a5 CMakeFiles/edge_ai_vibration_cm33_core0.dir/6ec368020485b0a8281c521f1b91c857/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/DSP/Source/TransformFunctions/TransformFunctions.c.obj
+ .debug_str     0x000117f8     0x2bc1 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/board.c.obj
+ .debug_str     0x000117f8     0x4044 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/clock_config.c.obj
+ .debug_str     0x000117f8     0x19ff CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/pin_mux.c.obj
+ .debug_str     0x000117f8     0x21c0 CMakeFiles/edge_ai_vibration_cm33_core0.dir/63409d9591190ff722d6dfe567ea76bb/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/cm33_core0/hardware_init.c.obj
+ .debug_str     0x000117f8      0x3e8 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/common/fsl_common_arm.c.obj
+ .debug_str     0x000117f8     0x3733 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/fsl_lpflexcomm.c.obj
+ .debug_str     0x000117f8     0x1d50 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/mcx_spc/fsl_spc.c.obj
+ .debug_str     0x000117f8     0x2f70 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/lpflexcomm/lpuart/fsl_lpuart.c.obj
+ .debug_str     0x000117f8      0x2b2 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/assert/fsl_assert.c.obj
+ .debug_str     0x000117f8     0x1477 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/debug_console_lite/fsl_debug_console.c.obj
+ .debug_str     0x000117f8       0xc7 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/misc_utilities/fsl_memcpy.S.obj
+ .debug_str     0x000117f8     0x17e2 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
+ .debug_str     0x000117f8      0x480 CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
+ .debug_str     0x000117f8      0xd3a CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
+ .debug_str     0x000117f8      0xeed CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
+ .debug_str     0x000117f8      0xd9b CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
+ .debug_str     0x000117f8      0x268 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/system_MCXN947_cm33_core0.c.obj
@@ -5117,7 +5122,7 @@ LOAD linker stubs
  .comment       0x00000045       0x46 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
  .comment       0x00000045       0x46 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
 
-.debug_frame    0x00000000     0x5b3c
+.debug_frame    0x00000000     0x5b4c
  .debug_frame   0x00000000       0x68 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/system_MCXN947_cm33_core0.c.obj
  .debug_frame   0x00000068      0xf1c CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.c.obj
  .debug_frame   0x00000f84       0x7c CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_reset.c.obj
@@ -5138,18 +5143,18 @@ LOAD linker stubs
  .debug_frame   0x00005540      0x138 CMakeFiles/edge_ai_vibration_cm33_core0.dir/C_/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/components/uart/fsl_adapter_lpuart.c.obj
  .debug_frame   0x00005678       0x54 CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj
  .debug_frame   0x000056cc       0x34 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj
- .debug_frame   0x00005700       0x2c CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
- .debug_frame   0x0000572c       0x34 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
- .debug_frame   0x00005760       0x34 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
- .debug_frame   0x00005794       0x28 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
- .debug_frame   0x000057bc      0x144 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
- .debug_frame   0x00005900       0x20 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
- .debug_frame   0x00005920       0x2c C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
- .debug_frame   0x0000594c       0x20 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strlen.o)
- .debug_frame   0x0000596c       0xac C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x00005a18       0x50 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00005a68       0x2c C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00005a94       0x2c C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_fixunssfdi.o)
- .debug_frame   0x00005ac0       0x38 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x00005af8       0x24 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
- .debug_frame   0x00005b1c       0x20 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libnosys.a(_exit.o)
+ .debug_frame   0x00005700       0x34 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj
+ .debug_frame   0x00005734       0x38 CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj
+ .debug_frame   0x0000576c       0x38 CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj
+ .debug_frame   0x000057a4       0x28 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-exit.o)
+ .debug_frame   0x000057cc      0x144 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x00005910       0x20 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x00005930       0x2c C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-init.o)
+ .debug_frame   0x0000595c       0x20 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a(libc_a-strlen.o)
+ .debug_frame   0x0000597c       0xac C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00005a28       0x50 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00005a78       0x2c C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00005aa4       0x2c C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_fixunssfdi.o)
+ .debug_frame   0x00005ad0       0x38 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00005b08       0x24 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a(_arm_fixunsdfsi.o)
+ .debug_frame   0x00005b2c       0x20 C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libnosys.a(_exit.o)

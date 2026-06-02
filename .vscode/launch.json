@@ -6,7 +6,7 @@
       "request": "launch",
       "cwd": "${workspaceFolder}",
       "executable": {
-        "elf": ""
+        "elf": "${workspaceFolder}/debug/edge_ai_vibration_cm33_core0.elf"
       },
       "stopAtSymbol": "main",
       "probeSerialNumber": "",
@@ -18,13 +18,15 @@
         "set non-stop off"
       ],
       "gdbServerConfigs": {
+        "segger": {
+          "device": "MCXN947:FRDM-MCXN947"
+        },
         "linkserver": {
           "device": "MCXN947:FRDM-MCXN947"
         },
-        "segger": {},
         "pemicro": {}
       },
-      "showDevDebugOutput": "none"
+      "showDevDebugOutput": "all"
     }
   ]
 }

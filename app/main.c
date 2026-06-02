@@ -38,21 +38,29 @@ static void print_startup_diagnostics(void)
 int main(void)
 {
     bool printed_diagnostics = false;
+    uint32_t cycle_count = 0;
 
     BOARD_InitHardware();
     BOARD_InitDebugConsole();
 
+    PRINTF("\n========================================\r\n");
     PRINTF("Embedded AI Runtime Started\r\n");
+    PRINTF("========================================\r\n\n");
 
     while (1)
     {
+        cycle_count++;
+        PRINTF("\n[CYCLE %lu] ----------------------------------------\r\n", cycle_count);
+
         generate_signal();
 
         run_fft();
 
         if (!printed_diagnostics)
         {
+            PRINTF("\n=== STARTUP DIAGNOSTICS ===\r\n");
             print_startup_diagnostics();
+            PRINTF("=== END DIAGNOSTICS ===\r\n\n");
             printed_diagnostics = true;
         }
 
@@ -60,6 +68,7 @@ int main(void)
 
         detect_anomaly();
 
+        PRINTF("[CYCLE %lu] Complete\r\n", cycle_count);
         SDK_DelayAtLeastUs(1000000, CLOCK_GetFreq(kCLOCK_CoreSysClk));
     }
 }
