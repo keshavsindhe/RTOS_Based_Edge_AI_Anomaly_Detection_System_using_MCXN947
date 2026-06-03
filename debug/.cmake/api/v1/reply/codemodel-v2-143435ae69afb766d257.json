@@ -8577,7 +8577,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "edge_ai_vibration_cm33_core0::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-edge_ai_vibration_cm33_core0-debug-0fbeca68fa622b88b240.json",
+					"jsonFile" : "target-edge_ai_vibration_cm33_core0-debug-a528804c97ad81920efd.json",
 					"name" : "edge_ai_vibration_cm33_core0",
 					"projectIndex" : 0
 				},
@@ -8591,7 +8591,7 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "footprint::@7f73aa44d57b7279e1d5",
-					"jsonFile" : "target-footprint-debug-6e875d1e0ca97b70c47c.json",
+					"jsonFile" : "target-footprint-debug-5b14e99439e9787e42d9.json",
 					"name" : "footprint",
 					"projectIndex" : 0
 				},

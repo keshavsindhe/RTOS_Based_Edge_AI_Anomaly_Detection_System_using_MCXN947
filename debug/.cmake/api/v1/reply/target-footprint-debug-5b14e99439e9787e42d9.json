@@ -31,10 +31,10 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "rom_report::@7f73aa44d57b7279e1d5"
+			"id" : "ram_report::@7f73aa44d57b7279e1d5"
 		},
 		{
-			"id" : "ram_report::@7f73aa44d57b7279e1d5"
+			"id" : "rom_report::@7f73aa44d57b7279e1d5"
 		}
 	],
 	"id" : "footprint::@7f73aa44d57b7279e1d5",
@@ -42,10 +42,10 @@
 	"orderDependencies" : 
 	[
 		{
-			"id" : "rom_report::@7f73aa44d57b7279e1d5"
+			"id" : "ram_report::@7f73aa44d57b7279e1d5"
 		},
 		{
-			"id" : "ram_report::@7f73aa44d57b7279e1d5"
+			"id" : "rom_report::@7f73aa44d57b7279e1d5"
 		}
 	],
 	"paths" : 

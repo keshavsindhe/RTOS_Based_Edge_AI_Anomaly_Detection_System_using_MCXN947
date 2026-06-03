@@ -17,20 +17,17 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      6
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/prj.conf",
+      4
     ]
   ],
   [
     "CONFIG_MCUX_PRJSEG_module.board.board_core_file",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      7
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_PRJSEG_module.board.console_lite",
@@ -39,20 +36,17 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      8
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/prj.conf",
+      6
     ]
   ],
   [
     "CONFIG_MCUX_PRJSEG_module.board.console",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      9
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_PRJSEG_module.board.suite",
@@ -61,8 +55,8 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      10
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/prj.conf",
+      7
     ]
   ],
   [
@@ -70,10 +64,10 @@
     "y",
     "bool",
     "y",
-    "assign",
+    "default",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      11
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk\\examples\\./_common/project_segments/common/Kconfig.prjseg",
+      44
     ]
   ],
   [
@@ -113,10 +107,10 @@
     "y",
     "bool",
     "y",
-    "assign",
+    "default",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      16
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk\\examples\\./_common/project_segments/common/Kconfig.prjseg",
+      75
     ]
   ],
   [
@@ -163,22 +157,19 @@
     "CONFIG_MCUX_HAS_PRJSEG_module.board.peripheral_sel",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      22
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_PRJSEG_project.use_hw_app",
     "y",
     "bool",
     "y",
-    "assign",
+    "default",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      23
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk\\examples\\./_common/project_segments/common/Kconfig.prjseg",
+      136
     ]
   ],
   [
@@ -257,34 +248,25 @@
     "CONFIG_MCUX_PRJSEG_module.board.lvgl",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      33
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_PRJSEG_ENABLE_FREERTOS_TICKLESS",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      34
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_PRJSEG_FREERTOS_TICKLESS_HAL",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      35
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HW_DEVICE_MCXN947_CORE_ID_cm33_core0",
@@ -1494,12 +1476,9 @@
     "CONFIG_MCUX_COMPONENT_driver.edma_soc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      156
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.inputmux_connections",
@@ -1508,8 +1487,8 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      157
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/edge_ai_vibration_cm33_core0/prj.conf",
+      3
     ]
   ],
   [
@@ -1526,12 +1505,9 @@
     "CONFIG_MCUX_COMPONENT_driver.trdc_soc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      159
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.romapi",
@@ -1548,56 +1524,41 @@
     "CONFIG_MCUX_COMPONENT_driver.romapi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      163
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.mem_interface",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      164
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.romapi_nboot",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      165
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.runbootloader",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      166
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.romapi_flashiap",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      167
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_PRJSEG_config.arm.warn_as_error",
@@ -1613,12 +1574,9 @@
     "CONFIG_MCUX_PRJSEG_config.arm.suppress.warn_as_error",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      169
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_PRJSEG_config.arm.shared",
@@ -1690,12 +1648,9 @@
     "CONFIG_MCUX_COMPONENT_CMSIS_NN_Source",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      180
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_DSP_Include",
@@ -1704,8 +1659,8 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      185
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/edge_ai_vibration_cm33_core0/prj.conf",
+      8
     ]
   ],
   [
@@ -1715,53 +1670,41 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      186
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/edge_ai_vibration_cm33_core0/prj.conf",
+      9
     ]
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Device_API_RTOS2",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      192
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Device_API_OSTick",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      193
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_RTOS2_RTX",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      194
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_RTOS2_RTX_LIB",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      195
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Include_core_cm",
@@ -1777,166 +1720,121 @@
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.USART",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      203
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.CAN",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      204
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.Ethernet",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      205
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.Ethernet_MAC",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      206
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.Ethernet_PHY",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      207
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.Flash",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      208
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.GPIO",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      209
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.I2C",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      210
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.MCI",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      211
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.NAND",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      212
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.SAI",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      213
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.SPI",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      214
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.USB_Device",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      215
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.USB_Host",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      216
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_CMSIS_Driver_Include.WiFi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      217
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_device.CMSIS",
@@ -1945,8 +1843,8 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      224
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/edge_ai_vibration_cm33_core0/prj.conf",
+      5
     ]
   ],
   [
@@ -1956,8 +1854,8 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      225
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/edge_ai_vibration_cm33_core0/prj.conf",
+      6
     ]
   ],
   [
@@ -1967,30 +1865,27 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      226
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/edge_ai_vibration_cm33_core0/prj.conf",
+      7
     ]
   ],
   [
     "CONFIG_MCUX_COMPONENT_device.RTE",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      227
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_FLASH_BASE_ADDRESS",
     "y",
     "hex",
     "0x0",
-    "assign",
+    "default",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      228
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk\\devices\\../devices/MCX/MCXN/MCXN947\\../../../../devices/arm/Kconfig.common",
+      23
     ]
   ],
   [
@@ -1998,10 +1893,10 @@
     "y",
     "hex",
     "0x0",
-    "assign",
+    "default",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      229
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk\\devices\\../devices/MCX/MCXN/MCXN947\\../../../../devices/arm/Kconfig.common",
+      27
     ]
   ],
   [
@@ -2009,10 +1904,10 @@
     "y",
     "bool",
     "y",
-    "assign",
+    "default",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      230
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk\\devices\\../devices/MCX/MCXN/MCXN947\\../../../../devices/arm/Kconfig.common",
+      31
     ]
   ],
   [
@@ -2020,10 +1915,10 @@
     "y",
     "hex",
     "0x0",
-    "assign",
+    "default",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      231
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk\\devices\\../devices/MCX/MCXN/MCXN947\\../../../../devices/arm/Kconfig.common",
+      36
     ]
   ],
   [
@@ -2062,12 +1957,9 @@
     "CONFIG_MCUX_COMPONENT_driver.cache_cache64",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      242
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.cache_lpcac_n4a_mcxn",
@@ -2084,34 +1976,25 @@
     "CONFIG_MCUX_COMPONENT_driver.cache_lpcac_n4a_mcxn",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      244
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_PRJSEG_driver.cache",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      245
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_PRJSEG_driver.flash_cache",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      246
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.cdog",
@@ -2128,12 +2011,9 @@
     "CONFIG_MCUX_COMPONENT_driver.cdog",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      248
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.common",
@@ -2166,12 +2046,9 @@
     "CONFIG_MCUX_COMPONENT_driver.crc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      251
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.ctimer",
@@ -2188,12 +2065,9 @@
     "CONFIG_MCUX_COMPONENT_driver.ctimer",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      253
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.dac14",
@@ -2210,12 +2084,9 @@
     "CONFIG_MCUX_COMPONENT_driver.dac14",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      255
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.dac_1",
@@ -2232,12 +2103,9 @@
     "CONFIG_MCUX_COMPONENT_driver.dac_1",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      257
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.edma4",
@@ -2254,12 +2122,9 @@
     "CONFIG_MCUX_COMPONENT_driver.edma4",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      259
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.eim",
@@ -2276,12 +2141,9 @@
     "CONFIG_MCUX_COMPONENT_driver.eim",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      261
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.erm",
@@ -2298,12 +2160,9 @@
     "CONFIG_MCUX_COMPONENT_driver.erm",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      263
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.evtg",
@@ -2320,12 +2179,9 @@
     "CONFIG_MCUX_COMPONENT_driver.evtg",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      265
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.ewm",
@@ -2342,23 +2198,17 @@
     "CONFIG_MCUX_COMPONENT_driver.ewm",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      267
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flash_k4.EXPLICITLY_ALLOW_FOR_FMU_IP",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      268
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.flexcan_edma",
@@ -2386,23 +2236,17 @@
     "CONFIG_MCUX_COMPONENT_driver.flexcan_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      271
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flexcan",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      272
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.flexio",
@@ -2419,12 +2263,9 @@
     "CONFIG_MCUX_COMPONENT_driver.flexio",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      274
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.flexio_uart_edma",
@@ -2441,23 +2282,17 @@
     "CONFIG_MCUX_COMPONENT_driver.flexio_uart_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      276
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flexio_uart",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      277
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.flexio_spi_edma",
@@ -2474,23 +2309,17 @@
     "CONFIG_MCUX_COMPONENT_driver.flexio_spi_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      279
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flexio_spi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      280
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.flexio_mculcd_edma",
@@ -2529,34 +2358,25 @@
     "CONFIG_MCUX_COMPONENT_driver.flexio_mculcd_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      284
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flexio_mculcd_smartdma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      285
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flexio_mculcd",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      286
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.flexio_i2s_edma",
@@ -2573,34 +2393,25 @@
     "CONFIG_MCUX_COMPONENT_driver.flexio_i2s_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      288
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flexio_i2s",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      289
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flexio_i2c_master",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      290
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.flexspi_edma",
@@ -2628,23 +2439,17 @@
     "CONFIG_MCUX_COMPONENT_driver.flexspi_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      293
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flexspi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      294
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.gdet",
@@ -2661,12 +2466,9 @@
     "CONFIG_MCUX_COMPONENT_driver.gdet",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      296
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.gpio",
@@ -2686,8 +2488,8 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      298
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/edge_ai_vibration_cm33_core0/prj.conf",
+      11
     ]
   ],
   [
@@ -2716,23 +2518,17 @@
     "CONFIG_MCUX_COMPONENT_driver.i3c_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      301
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.i3c",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      302
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.inputmux",
@@ -2749,12 +2545,9 @@
     "CONFIG_MCUX_COMPONENT_driver.inputmux",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      304
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.intm",
@@ -2771,12 +2564,9 @@
     "CONFIG_MCUX_COMPONENT_driver.intm",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      306
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.iped",
@@ -2793,12 +2583,9 @@
     "CONFIG_MCUX_COMPONENT_driver.iped",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      308
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.irtc",
@@ -2815,12 +2602,9 @@
     "CONFIG_MCUX_COMPONENT_driver.irtc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      310
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.itrc",
@@ -2837,12 +2621,9 @@
     "CONFIG_MCUX_COMPONENT_driver.itrc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      312
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.lpadc",
@@ -2859,12 +2640,9 @@
     "CONFIG_MCUX_COMPONENT_driver.lpadc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      314
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.lpc_freqme",
@@ -2881,12 +2659,9 @@
     "CONFIG_MCUX_COMPONENT_driver.lpc_freqme",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      316
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.lpcmp",
@@ -2903,12 +2678,9 @@
     "CONFIG_MCUX_COMPONENT_driver.lpcmp",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      318
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.lpflexcomm",
@@ -2969,12 +2741,9 @@
     "CONFIG_MCUX_COMPONENT_driver.lpflexcomm_lpuart_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      324
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.lpflexcomm_lpspi_edma",
@@ -3002,23 +2771,17 @@
     "CONFIG_MCUX_COMPONENT_driver.lpflexcomm_lpspi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      327
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.lpflexcomm_lpspi_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      328
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.lpflexcomm_lpi2c_edma",
@@ -3046,23 +2809,17 @@
     "CONFIG_MCUX_COMPONENT_driver.lpflexcomm_lpi2c",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      331
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.lpflexcomm_lpi2c_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      332
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.lptmr",
@@ -3079,12 +2836,9 @@
     "CONFIG_MCUX_COMPONENT_driver.lptmr",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      334
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.mailbox",
@@ -3101,12 +2855,9 @@
     "CONFIG_MCUX_COMPONENT_driver.mailbox",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      336
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.mcx_cmc",
@@ -3123,12 +2874,9 @@
     "CONFIG_MCUX_COMPONENT_driver.mcx_cmc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      338
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.mcx_enet",
@@ -3145,12 +2893,9 @@
     "CONFIG_MCUX_COMPONENT_driver.mcx_enet",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      340
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.mcx_spc",
@@ -3188,12 +2933,9 @@
     "CONFIG_MCUX_COMPONENT_driver.mcx_vbat",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      344
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.mrt",
@@ -3210,12 +2952,9 @@
     "CONFIG_MCUX_COMPONENT_driver.mrt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      346
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.npx",
@@ -3232,12 +2971,9 @@
     "CONFIG_MCUX_COMPONENT_driver.npx",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      348
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.opamp",
@@ -3254,12 +2990,9 @@
     "CONFIG_MCUX_COMPONENT_driver.opamp",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      350
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.ostimer",
@@ -3276,12 +3009,9 @@
     "CONFIG_MCUX_COMPONENT_driver.ostimer",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      352
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.otp",
@@ -3298,12 +3028,9 @@
     "CONFIG_MCUX_COMPONENT_driver.otp",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      354
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.pdm_edma",
@@ -3331,23 +3058,17 @@
     "CONFIG_MCUX_COMPONENT_driver.pdm_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      357
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.pdm",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      358
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.pint",
@@ -3364,12 +3085,9 @@
     "CONFIG_MCUX_COMPONENT_driver.pint",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      360
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.plu",
@@ -3386,12 +3104,9 @@
     "CONFIG_MCUX_COMPONENT_driver.plu",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      362
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.port",
@@ -3411,8 +3126,8 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      364
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/edge_ai_vibration_cm33_core0/prj.conf",
+      15
     ]
   ],
   [
@@ -3441,23 +3156,17 @@
     "CONFIG_MCUX_COMPONENT_driver.powerquad",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      367
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.powerquad_cmsis",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      368
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.puf_v3",
@@ -3474,12 +3183,9 @@
     "CONFIG_MCUX_COMPONENT_driver.puf_v3",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      370
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.pwm",
@@ -3496,12 +3202,9 @@
     "CONFIG_MCUX_COMPONENT_driver.pwm",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      372
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.qdc",
@@ -3518,12 +3221,9 @@
     "CONFIG_MCUX_COMPONENT_driver.qdc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      374
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.sai_edma",
@@ -3551,23 +3251,17 @@
     "CONFIG_MCUX_COMPONENT_driver.sai_edma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      377
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.sai",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      378
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.sctimer",
@@ -3584,12 +3278,9 @@
     "CONFIG_MCUX_COMPONENT_driver.sctimer",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      380
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.sema42",
@@ -3606,12 +3297,9 @@
     "CONFIG_MCUX_COMPONENT_driver.sema42",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      382
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.sinc",
@@ -3628,12 +3316,9 @@
     "CONFIG_MCUX_COMPONENT_driver.sinc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      384
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.smartcard_emvsim",
@@ -3672,34 +3357,25 @@
     "CONFIG_MCUX_COMPONENT_driver.smartcard_emvsim",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      388
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.smartcard_phy_emvsim",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      389
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.smartcard_phy_tda8035",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      390
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.smartdma",
@@ -3716,12 +3392,9 @@
     "CONFIG_MCUX_COMPONENT_driver.smartdma",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      392
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.syspm",
@@ -3738,12 +3411,9 @@
     "CONFIG_MCUX_COMPONENT_driver.syspm",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      394
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.tdet",
@@ -3760,12 +3430,9 @@
     "CONFIG_MCUX_COMPONENT_driver.tdet",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      396
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.trdc_1",
@@ -3782,12 +3449,9 @@
     "CONFIG_MCUX_COMPONENT_driver.trdc_1",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      398
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.tsi_v6",
@@ -3804,12 +3468,9 @@
     "CONFIG_MCUX_COMPONENT_driver.tsi_v6",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      400
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.usdhc",
@@ -3826,12 +3487,9 @@
     "CONFIG_MCUX_COMPONENT_driver.usdhc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      402
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.utick",
@@ -3848,12 +3506,9 @@
     "CONFIG_MCUX_COMPONENT_driver.utick",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      404
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.vref_1",
@@ -3870,12 +3525,9 @@
     "CONFIG_MCUX_COMPONENT_driver.vref_1",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      406
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.wuu",
@@ -3892,12 +3544,9 @@
     "CONFIG_MCUX_COMPONENT_driver.wuu",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      408
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.wwdt",
@@ -3914,298 +3563,217 @@
     "CONFIG_MCUX_COMPONENT_driver.wwdt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      410
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_FLASH_DRIVER_EXECUTES_FROM_RAM",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      411
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_ENABLE_QUICKACCESS_SECTION_IN_XSPI_DRIVER",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      412
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.dspi_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      417
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.ecspi_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      418
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flexcomm_i2c_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      419
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flexcomm_spi_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      420
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.flexcomm_usart_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      421
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.i2c_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      422
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.ii2c_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      423
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.iuart_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      424
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.lpc_i2c_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      425
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.vspi_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      426
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.vusart_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      427
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.lpflexcomm_lpi2c_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      428
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.lpflexcomm_lpspi_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      429
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.lpflexcomm_lpuart_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      430
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.lpi2c_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      431
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.lpsci_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      432
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.lpspi_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      433
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.lpuart_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      434
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.spi_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      435
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.uart_freertos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      436
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.iot_reference.logging",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      447
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.iot_reference.transport_mbedtls",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      448
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.iot_reference.transport_mbedtls3x",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      449
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.iot_reference.transport_mbedtls_psa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      450
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.cmsis_lpuart",
@@ -4222,12 +3790,9 @@
     "CONFIG_MCUX_COMPONENT_driver.cmsis_lpuart",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      457
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.cmsis_lpi2c",
@@ -4244,12 +3809,9 @@
     "CONFIG_MCUX_COMPONENT_driver.cmsis_lpi2c",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      459
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.cmsis_lpspi",
@@ -4266,23 +3828,17 @@
     "CONFIG_MCUX_COMPONENT_driver.cmsis_lpspi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      461
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.cmsis_lpc_gpio",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      462
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_HAS_COMPONENT_driver.cmsis_gpio",
@@ -4299,12 +3855,9 @@
     "CONFIG_MCUX_COMPONENT_driver.cmsis_gpio",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      464
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_utility.assert_lite",
@@ -4313,20 +3866,17 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      470
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/edge_ai_vibration_cm33_core0/prj.conf",
+      16
     ]
   ],
   [
     "CONFIG_MCUX_COMPONENT_utility.assert",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      471
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_utilities.misc_utilities",
@@ -4335,31 +3885,25 @@
     "y",
     "assign",
     [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      472
+      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/edge_ai_vibration_cm33_core0/prj.conf",
+      17
     ]
   ],
   [
     "CONFIG_MCUX_COMPONENT_utility.incbin",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      473
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.lists",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      474
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_utility.str",
@@ -4375,12 +3919,9 @@
     "CONFIG_MCUX_COMPONENT_utility.format",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      476
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_DEPENDENCY_COMPONENT_SILICON_ID_MCXN",
@@ -4397,34 +3938,25 @@
     "CONFIG_MCUX_COMPONENT_component.silicon_id",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      478
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_utility.notifier",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      479
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_utility.debug_console",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      485
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_utility.debug_console_lite",
@@ -4440,606 +3972,441 @@
     "CONFIG_MCUX_COMPONENT_utility.debug_console_rtt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      487
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.log",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      488
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_utility.shell",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      489
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.serial_manager",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      490
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.serial_manager_uart",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      491
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.serial_manager_spi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      492
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.serial_manager_usb_cdc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      493
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.serial_manager_virtual",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      494
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.serial_manager_swo",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      495
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.serial_manager_rpmsg",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      496
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.serial_manager_ble_wu",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      497
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.rtt.template",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      502
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.rtt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      503
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.ak4497",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      510
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.cs42448",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      511
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.cs42888",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      512
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.dialog7212",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      513
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.pcm186x",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      514
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.pcm512x",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      515
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.sgtl5000",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      516
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.tfa9xxx",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      517
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.tfa9xxx_hal",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      518
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.tfa9896",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      519
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.wm8524",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      520
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.wm8904",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      521
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.wm8960",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      522
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.wm8962",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      523
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.coremark",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      529
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.button",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      535
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.common_task",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      536
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.crc_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      537
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.software_crc_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      538
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.gpio_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      539
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.flash_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      540
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.mcxw_flash_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      541
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ctimer_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      542
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.lptmr_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      543
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.mrt_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      544
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ostimer_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      545
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.timer_manager",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      546
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.lptmr_time_stamp_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      547
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ctimer_time_stamp_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      548
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ostimer_time_stamp_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      549
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.i2c_adapter_interface",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      550
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.i2c_mux",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      551
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.i3c_bus",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      552
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.i3c_bus_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      553
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.led",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      554
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.mem_manager",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      555
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.messaging",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      556
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.reset_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      557
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.hal_reset",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      558
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.rng_adapter_interface",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      559
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.rpmsg_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      560
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.pwm_ctimer_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      561
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.lpuart_adapter",
@@ -5056,5500 +4423,4000 @@
     "CONFIG_MCUX_COMPONENT_component.lce",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      563
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.wireless_imu_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      564
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.systick_timer",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      565
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.timer_lptmr",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      566
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.audio_flexcomm_i2s_dma_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      571
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.audio_sai_dma_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      572
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.audio_sai_edma_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      573
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.cns_adc_sensor_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      579
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.lpadc_sensor_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      580
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.hal_clock",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      583
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.hal_pinctrl",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      584
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.osa_template_config",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      590
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.osa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      591
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.edgefast_wifi_nxp",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      597
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.wifi_bt_module.tx_pwr_limits",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      603
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.wifi_bt_module.config",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      604
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.wifi_bt_module.wifi_bt_combo_fw",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      605
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.wifi_bt_module.bt_only_fw",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      606
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.wifi_bt_module.wifi_fw",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      607
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.wifi_bt_module.nb_fw",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      608
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.wifi_bt_module.wifi_nb_combo_fw",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      609
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.wifi_bt_module.uncompressed_firmware",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      610
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.wifi_bt_module.slim",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      611
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.doc.mcxn",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      625
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.static_lib.mcxn",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      631
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.common",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      637
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.aead",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      638
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.aead_modes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      639
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.aes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      640
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.buffer",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      641
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.cipher",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      642
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.cipher_modes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      643
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.core",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      644
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.crc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      645
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.ecc_deterministic",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      646
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.ecc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      647
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.els_header_only",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      648
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.els_common",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      649
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.standalone_gdet",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      650
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.els",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      651
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.glikey",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      652
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.hash",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      653
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.hashmodes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      654
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.hmac",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      655
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.key_derivation",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      656
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.key",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      657
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.mac",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      658
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.mac_modes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      659
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.math",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      660
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.memory",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      661
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.oscca",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      666
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.oscca_aeadmodes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      667
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.oscca_ciphermodes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      668
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.oscca_macmodes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      669
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.oscca_pkc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      670
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.oscca_randommodes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      671
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.oscca_safo",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      672
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.oscca_sm2",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      673
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.oscca_sm3",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      674
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.oscca_sm4",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      675
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.padding",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      678
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.pkc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      679
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.prng",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      680
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.psa_driver",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      681
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.random",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      682
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.random_modes_hmacdrbg",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      683
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.random_modes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      684
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.random_modes_ctr",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      685
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.rsa_oaep",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      686
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.rsa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      687
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.session",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      688
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.signature",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      689
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.trng",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      690
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.trng.type_els",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      691
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.trng.type_rng4",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      692
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.pre_processor",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      693
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.data_integrity",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      694
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.flow_protection",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      695
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.param_integrity",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      696
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.secure_counter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      697
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      698
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.toolchain",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      699
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.platform.mcxn",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      705
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      711
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_memory",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      712
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_flow_protection",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      713
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_rsa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      714
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_random_modes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      715
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_mac_modes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      716
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_key",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      717
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_hmac",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      718
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_hash_modes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      719
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_els",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      720
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_ecc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      721
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_aead",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      722
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.els_pkc.examples_cipher_modes",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      723
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ele_crypto",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      730
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ele_nvm_manager",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      731
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ele_hseb",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      737
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ele_hseb_mu_driver",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      738
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ele_hseb_framework",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      739
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ele_hseb_interface",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      740
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ele_hseb_services",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      741
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.ele_base_api",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      747
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.mbedtls_thread_alt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      753
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.els_pkc.oracle.rw61x",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      754
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.els_pkc.oracle.mcxn",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      755
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.els_pkc.oracle.mimxrt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      756
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.els_pkc.oracle.lpc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      757
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.els_pkc.oracle",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      758
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.els_pkc.common",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      759
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.els_pkc.transparent",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      760
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.els_pkc.opaque",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      761
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.els_pkc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      762
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.dcp",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      763
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.use_trng_compile_option",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      764
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ele_s4xx_rng",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      765
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ele_s4xx_psa_transparent",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      766
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ele_s4xx_sd_nvm_mgr",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      767
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ele_s4xx_psa_opaque",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      768
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ele_s4xx_psa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      769
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ele_s4xx_psa_with_persistent_storage",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      770
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ele_s200.common",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      771
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ele_s200.transparent",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      772
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ele_s200.opaque",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      773
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ele_s200",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      774
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.casper",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      775
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.hashcrypt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      776
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.caam",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      777
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ela_csec",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      778
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.ele_hseb",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      779
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.sgi.common",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      780
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.sgi.transparent",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      781
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.sgi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      782
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.psa_crypto_driver.pkc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      783
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      784
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls.default_config",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      785
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls.tf_psa_crypto",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      786
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls.tf_psa_crypto.builtin_driver",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      787
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls.tf_psa_crypto.default_config",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      788
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_DEPENDENCY_COMPONENT_component.use_i2c_dependency_options",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      795
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.pca9420",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      800
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.pca9422",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      801
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.pf1550",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      802
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.pf3000",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      803
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.pf5020",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      804
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.power_manager_framework",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      807
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.hal_power",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      808
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_ABSTRACT_COMPONENT_component_expander",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      814
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.sx1502",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      815
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.fxas21002cq",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      821
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.fxls8974cf",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      822
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.fxos8700cq",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      823
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.htu21d",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      824
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.icm42688p",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      825
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.max30101",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      826
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.mma8451q",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      827
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.mma8652fc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      828
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.mpl3115a2",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      829
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.nmh1000",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      830
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.tmp117",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      831
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.p3t1755",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      832
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.tsl2561",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      833
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.lsm6dso",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      834
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-common",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      840
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.fbdev",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      841
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.dc-fb-dsi-cmd",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      846
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.dc-fb-elcdif",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      847
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.dc-fb-lcdif",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      848
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.dc-fb-lcdifv2",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      849
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.dc-fb-lcdifv3",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      850
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.dc-fb-dcif",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      851
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.dc-fb-dcif_1",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      852
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.dc-fb-dbi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      853
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.dc-fb-ssd1963",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      854
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-hx8394",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      860
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-rm68191",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      861
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-rm68200",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      862
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-rm67191",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      863
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-rm67162",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      864
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-co5300",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      865
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-rm692c9",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      866
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-rpi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      867
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-adv7535",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      868
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-sn65dsi83",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      869
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-it6263",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      870
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.display-it6161",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      871
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.camera-device-ov5640",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      877
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.camera-device-ov7670",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      878
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.camera-device-ov7725",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      879
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.camera-device-mt9m114",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      880
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.camera-device-max9286",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      881
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.camera-device-ap1302",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      882
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.camera-receiver-csi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      888
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.camera-receiver-isi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      889
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.camera-receiver-flexio",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      890
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.gt911",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      896
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.ft6x06",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      897
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.ft3267",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      898
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.ektf2k",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      899
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.ft5406",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      900
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.ft5406_rt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      901
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.tma525b",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      902
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.ili9341",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      908
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.st7796s",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      909
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.ssd1963",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      910
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.psp27801",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      911
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.slcd_engine",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      914
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phyrtl8211f",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      920
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phyaqr113c",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      921
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phyksz8081",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      922
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phydp8384x",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      923
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phygpy215",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      924
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phyksz8041",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      925
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phyar8031",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      926
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phylan8720a",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      927
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phyvsc8541",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      928
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phyrtl8201",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      929
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phylan8741",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      930
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phytja1100",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      931
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phytja1120",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      932
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phyyt8521",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      933
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.phytenbaset",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      934
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.srtm",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      937
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.sdu_adapter",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      942
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.smbus",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      948
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.mflash_onchip",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      954
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.mflash_onchip_fmu",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      955
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.mflash_offchip",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      956
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.mflash_custom",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      957
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.flash_nand_flexspi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      958
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.flash_nand_semc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      959
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.flash_nor_flexspi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      960
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.flash_nor_lpspi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      961
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.flash_nor_spifi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      962
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.flash_nor_xspi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      963
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.mx25l_flash",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      969
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.mx25r_flash",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      970
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.mt48lc2m32b2",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      976
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.mt48lc4m16a2",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      977
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.IS42SM16800H",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      978
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.sm_clock",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      988
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.sm_pinctrl",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      989
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.sm_power",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      990
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.sm_reset",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      991
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.sm.crc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      994
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.sm.scmi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      995
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.sm.smt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      996
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.mpi_loader",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1002
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.conn_fwloader",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1007
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.conn_fwloader.fw_bin",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1008
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.conn_fwloader_ns",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1009
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.conn_fwloader.monolithic",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1010
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_driver.wifi.libcsi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1011
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_STREAM_FLASH",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1018
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.memfault_sdk",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1024
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.panic",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1025
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.exception_handling_cm7",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1026
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.zephyr_headers",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1032
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.gen_hal",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1033
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_component.gen_hal.osa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1034
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_utilities.unity",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1040
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_utilities.gcov",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1041
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.wifi_bt_config.template",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1052
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.template",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1053
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.osa_free_rtos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1054
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.osa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1055
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.common_files",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1056
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.fwdnld",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1057
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.firmware_download",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1058
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.net",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1059
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.wifidriver",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1060
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1061
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.sdio",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1062
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.mlan_sdio",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1063
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.fwdnld_intf_abs",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1064
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.imu",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1065
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.cli",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1066
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.wmcrypto",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1067
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.wmtime",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1068
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.ncp_supp_wmcrypto",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1069
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.libcsi.incl",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1070
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.slim_debug",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1071
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.wifi.slim",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1072
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.usb.common_header",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1075
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.fatfs",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1076
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.littlefs",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1077
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.multicore.rpmsg-lite",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1082
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.multicore.mcmgr",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1083
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.multicore.erpc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1084
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.multicore.remoteproc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1085
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.multicore.remoteproc.empty_rsc_table",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1086
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lwip",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1092
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.crypto.no_psa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1097
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.crypto",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1098
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.x509",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1099
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.p256m",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1100
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.ssl.no_psa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1101
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.ssl",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1102
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.no_psa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1103
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1104
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.tests",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1105
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.tests_certs_only",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1106
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_PRJSEG_middleware.mbedtls3x.default_heap_stack",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1107
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.template",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1108
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.port.config",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1113
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.port.psa_crypto_config",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1114
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.port.only_accelerator_config",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1115
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.port.hw_init",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1116
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.port.only_entropy",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1117
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.port.rng",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1118
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.port.tfm",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1119
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.crypto_storage_default",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1125
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.crypto_storage_fatfs",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1126
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mbedtls3x.crypto_storage_ram",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1127
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1138
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.platform_common",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1139
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.platform_nv_seed",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1140
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.accelerator",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1141
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.platform",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1146
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.crypto",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1147
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.initial_attestation",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1152
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.initial_attestation.asymmetric",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1153
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.initial_attestation.symmetric",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1154
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.qcbor",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1155
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.partition_init_attest",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1158
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.protected_storage",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1159
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.its",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1160
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.flash_mcxw23",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1166
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.flash_mcxl20",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1167
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.flash_iap1",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1168
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.flash_iap",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1169
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.flash_iap_n4a",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1170
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.flash_mcxn",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1171
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.romapi_rw61x",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1172
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.flash_k4",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1173
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.flash_k4_romapi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1174
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.flash_rt700",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1175
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.flash_dummy",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1176
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.flash_use_nand_interface",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1177
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.lpuart",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1183
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.usart",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1184
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.enable_crypto_cipher_module",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1190
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.profile_medium.additional_sha_algo",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1196
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.enable_platform_no_flash",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1202
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.secure_crypto_clients",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1206
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.secure_reg_test_enable",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1207
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.profile_large.ns_psatest_configs",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1212
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.profile_medium.ns_psatest_configs",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1213
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.profile_small.ns_psatest_configs",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1214
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1220
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.test",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1230
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.test.protected_storage",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1231
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.test.its",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1232
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.test.attestation.asymmetric",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1237
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.test.attestation.symmetric",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1238
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.qcbor.test",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1239
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.test.crypto",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1242
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.test.platform",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1243
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.test.ipc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1244
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.test.irq_slih",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1245
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.s.test.irq_flih",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1246
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfmtests.ns",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1252
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1253
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.default_app",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1254
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.psatest_app",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1255
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.ps",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1256
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.its",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1257
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.s",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1258
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.attestation.asymmetric",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1263
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.attestation.symmetric",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1264
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.qcbor",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1265
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.crypto",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1268
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.ipc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1269
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.irq_slih",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1270
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.irq_flih",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1271
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.platform",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1272
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tfm.ns.test.tcose",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1273
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.psatest.ns",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1280
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.psatest.ns.crypto",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1285
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.psatest.ns.disable_crypto_cipher_module",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1286
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.psatest.ns.initial_attestation",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1287
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.psatest.ns.protected_storage",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1288
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.psatest.ns.internal_trusted_storage",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1289
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.sdmmc.sd",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1297
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.sdmmc.sdspi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1298
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.sdmmc.mmc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1299
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.sdmmc.sdio",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1300
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.sdmmc.host.sdhc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1301
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.sdmmc.host.sdif",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1302
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.sdmmc.host.usdhc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1303
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.edgefast_bluetooth.pal",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1306
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_PRJSEG_middleware.wireless.ethermind",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1311
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_PRJSEG_middleware.wireless.ethermind.bt_only_fw_dnld",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1312
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.fmstr",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1315
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.llhttp",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1316
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.tinycbor",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1317
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.pkcs11",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1318
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.rtcesl.cm33f",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1323
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mc_pmsm_snsless.float",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1333
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mc_pmsm_enc.float",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1334
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mc_pmsm_enc_dual.float",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1335
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mc_pmsm_servo.float",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1336
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mc_pmsm_servo_dual.float",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1337
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.pmsm_mid.float",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1338
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mc_pmsm_snsless.frac",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1339
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.pmsm_mid.frac",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1340
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.pmsm_mid.frac_enc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1341
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control_pmsm_float.template",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1342
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control_pmsm_frac.template",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1343
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control_pmsm_float.tsa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1344
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control_pmsm_servo_float.tsa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1345
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control_pmsm_frac.tsa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1346
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control_pmsm_frac_enc.tsa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1347
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control_pmsm_float_imcat",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1348
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control.mcaa_cm33f",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1349
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control.mcaa_cm33nodsp",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1350
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control.mc_drivers_adcncxn_pwma_qdc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1351
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mc_bldc.frac",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1357
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control_bldc_frac.tsa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1358
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.motor_control_bldc_frac.template",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1359
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1363
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl.template",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1368
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl.demo.common",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1373
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl.demo.transform",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1374
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl.demo.multilang",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1375
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl.demo.flex_layout",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1376
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl.demo.scroll",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1377
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl.demo.music",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1378
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl.demo.keypad_encoder",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1379
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl.demo.benchmark",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1380
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl.demo.stress",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1381
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.lvgl.demo.widgets",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1382
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mcuboot.bootutil",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1393
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mcuboot.tinycrypt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1394
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mcuboot.boot_serial",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1395
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mcuboot.zcbor",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1396
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mcuboot.serial_recovery",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1397
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mcuboot.nxp_app_support",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1398
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_BOOT_CUSTOM_DEVICE_SETUP",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1399
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.mcuboot.mcxn_custom_cfg.main_flash_only",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1400
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.touch",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1406
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.touch.sources_frdmke1xz",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1407
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.touch.sources_frdmk32l2a4s",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1408
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.touch.sources_frdmmcxn",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1409
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.metering.meterlib",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1415
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.metering.meterliblp",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1416
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.metering.meterfft",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1417
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.metering.fraclib",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1418
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.metering.meterlib_no_mmau",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1419
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.metering.meterliblp_no_mmau",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1420
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.metering.meterfft_no_mmau",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1421
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.metering.fraclib_no_mmau",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1422
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.nxp_iot_agent.mqtt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1428
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.neutron",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1434
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.ethosu.application",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1439
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.ethosu.core_driver",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1440
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.mpp",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1446
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.tensorflow_lite_micro",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1452
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.tensorflow_lite_micro.refenerce",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1453
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.tensorflow_lite_micro.binary",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1454
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.tensorflow_lite_micro.source",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1455
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.tensorflow_lite_micro.cmsis_nn",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1456
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.tensorflow_lite_micro.ethosu",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1457
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.tensorflow_lite_micro.xtensa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1458
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.tensorflow_lite_micro.neutron",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1459
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.tensorflow_lite_micro.library",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1460
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.tensorflow_lite_micro.third_party.fft2d",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1461
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.executorch",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1467
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.executorch.binary",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1468
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.executorch.neutron",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1469
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.eiq.executorch.source",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1470
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.commonSe050",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1481
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.commonSe050_mcxa",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1482
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.commonSe050_ksdk",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1488
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.commonSe050smCom",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1489
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.commonSe050infra",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1490
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.commonSe050_sss_ex",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1491
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.commonSe050_CurrentApplet",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1492
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.commonSe050_Scp03",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1493
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.serial_manager_usb_cdc",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1494
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.mwlog",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1495
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.mbedtls_alt_demo_common",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1496
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.tstutils",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1497
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.tstutils.time",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1498
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.mbedtls_sss",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1504
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.mbedtls_sss_mcx",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1505
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.sss_lp",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1506
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.commonSe050CloudDemos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1512
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.commonCloudDemos",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1513
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.se_hostlib.cloud_Wifi",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1514
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.emwin.template",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1521
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.emwin",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1522
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.canopennode",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1525
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.safety",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1526
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.freertos-kernel",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1540
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.freertos-kernel.cm33_trustzone.secure",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1541
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.freertos.corehttp",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1544
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.freertos.corejson",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1545
-    ]
+    null,
+    "unset",
+    null
   ],
   [
     "CONFIG_MCUX_COMPONENT_middleware.freertos.coremqtt",
     "y",
     "bool",
-    "n",
-    "assign",
-    [
-      "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration/debug/.config",
-      1546
-    ]
+    null,
+    "unset",
+    null
   ]
 ]

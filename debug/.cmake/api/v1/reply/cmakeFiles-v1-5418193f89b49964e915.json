@@ -296,7 +296,7 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/led_blinky.mex"
+			"path" : "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/hello_world/hello_world.mex"
 		},
 		{
 			"path" : "prj.conf"
@@ -322,7 +322,11 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/cm33_core0/prj.conf"
+			"path" : "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/hello_world/prj.conf"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/hello_world/cm33_core0/prj.conf"
 		},
 		{
 			"path" : "edge_ai_vibration_cm33_core0/prj.conf"

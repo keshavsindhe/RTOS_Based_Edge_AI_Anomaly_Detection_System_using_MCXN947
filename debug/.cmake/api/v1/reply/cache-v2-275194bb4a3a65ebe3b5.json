@@ -1422,7 +1422,7 @@
 					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "FILEPATH",
 			"value" : "c:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/cmake/toolchain/armgcc.cmake"
 		},
 		{
@@ -1511,7 +1511,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky"
+			"value" : "C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/hello_world"
 		},
 		{
 			"name" : "OBJDUMP_BIN_CMD",
@@ -1571,7 +1571,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\User\\OneDrive\\Desktop\\embedded_ai\\edge_ai_vibration//"
+			"value" : "C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration//"
 		},
 		{
 			"name" : "Python3_EXECUTABLE",

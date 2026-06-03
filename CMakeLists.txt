@@ -10,7 +10,7 @@ cmake_path(APPEND conf_file_path ${CMAKE_CURRENT_LIST_DIR} ${app_board_core_dir}
 set(CONF_FILE ${conf_file_path} ${CONF_FILE})
 include(${SdkRootDirPath}/cmake/extension/mcux.cmake)
 
-project(edge_ai_vibration LANGUAGES C CXX ASM PROJECT_BOARD_PORT_PATH ${board_root}/${board}/demo_apps/led_blinky)
+project(edge_ai_vibration LANGUAGES C CXX ASM PROJECT_BOARD_PORT_PATH ${board_root}/${board}/demo_apps/hello_world)
 
 
 include(${SdkRootDirPath}/CMakeLists.txt)

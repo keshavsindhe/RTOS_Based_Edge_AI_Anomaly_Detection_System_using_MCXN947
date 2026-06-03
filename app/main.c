@@ -41,7 +41,6 @@ int main(void)
     uint32_t cycle_count = 0;
 
     BOARD_InitHardware();
-    BOARD_InitDebugConsole();
 
     PRINTF("\n========================================\r\n");
     PRINTF("Embedded AI Runtime Started\r\n");

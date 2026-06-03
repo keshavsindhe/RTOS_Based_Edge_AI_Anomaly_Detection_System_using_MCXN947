@@ -266,7 +266,7 @@ CMAKE_STRIP:FILEPATH=C:/Users/User/.mcuxpressotools/arm-gnu-toolchain-14.2.rel1-
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
 //No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=c:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/cmake/toolchain/armgcc.cmake
+CMAKE_TOOLCHAIN_FILE:FILEPATH=c:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/cmake/toolchain/armgcc.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -288,7 +288,7 @@ MCUXPRESSO_CONFIG_TOOL_GENERATED_CMAKE_FILE_PATH:FILEPATH=C:/Users/User/OneDrive
 
 //Directory containing the MEX file consumed by MCUXpresso Config
 // Tool
-MCUXPRESSO_CONFIG_TOOL_MEX_PATH:STRING=C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky
+MCUXPRESSO_CONFIG_TOOL_MEX_PATH:STRING=C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/hello_world
 
 OBJDUMP_BIN_CMD:STRING=-Obinary
 
@@ -301,7 +301,7 @@ PAHOLE:FILEPATH=PAHOLE-NOTFOUND
 PUNCOVER:FILEPATH=PUNCOVER-NOTFOUND
 
 //No help, variable specified on the command line.
-PrjRootDirPath:UNINITIALIZED=C:\Users\User\OneDrive\Desktop\embedded_ai\edge_ai_vibration//
+PrjRootDirPath:UNINITIALIZED=C:/Users/User/OneDrive/Desktop/embedded_ai/edge_ai_vibration//
 
 //Path to a program.
 RUBY_EXECUTABLE:FILEPATH=RUBY_EXECUTABLE-NOTFOUND
