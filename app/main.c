@@ -19,19 +19,19 @@ static void print_startup_diagnostics(void)
     PRINTF("Signal samples [0..9]:\r\n");
     for (int i = 0; i < 10; i++)
     {
-        PRINTF("%.2f\r\n", (double)signal_buffer[i]);
+        print_float_4("", signal_buffer[i], "\r\n");
     }
 
     PRINTF("Signal samples near anomaly:\r\n");
     for (int i = SIGNAL_ANOMALY_START; i <= SIGNAL_ANOMALY_END; i++)
     {
-        PRINTF("%.2f\r\n", (double)signal_buffer[i]);
+        print_float_4("", signal_buffer[i], "\r\n");
     }
 
     PRINTF("FFT values [0..9]:\r\n");
     for (int i = 0; i < 10; i++)
     {
-        PRINTF("%.2f\r\n", (double)fft_output[i]);
+        print_float_4("", fft_output[i], "\r\n");
     }
 }
 
@@ -49,7 +49,7 @@ int main(void)
     while (1)
     {
         cycle_count++;
-        PRINTF("\n[CYCLE %lu] ----------------------------------------\r\n", cycle_count);
+        PRINTF("\n[CYCLE %u] ----------------------------------------\r\n", (unsigned int)cycle_count);
 
         generate_signal();
 
@@ -67,7 +67,7 @@ int main(void)
 
         detect_anomaly();
 
-        PRINTF("[CYCLE %lu] Complete\r\n", cycle_count);
+        PRINTF("[CYCLE %u] Complete\r\n", (unsigned int)cycle_count);
         SDK_DelayAtLeastUs(1000000, CLOCK_GetFreq(kCLOCK_CoreSysClk));
     }
 }

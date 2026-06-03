@@ -62,3 +62,12 @@
 20084	21643	8022098063919117	CMakeFiles/edge_ai_vibration_cm33_core0.dir/edge_ai_vibration.c.obj	b52a11db328a949e
 16601	17319	8022098029044440	CMakeFiles/edge_ai_vibration_cm33_core0.dir/63409d9591190ff722d6dfe567ea76bb/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/hello_world/cm33_core0/hardware_init.c.obj	920c2c547c11b11c
 16514	17710	8022098028200136	CMakeFiles/edge_ai_vibration_cm33_core0.dir/eed67934c269ebc1da66cdc17afb4ef9/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/hello_world/pin_mux.c.obj	760f41f439368719
+2351	12291	8022120599856980	CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/signal_generator.c.obj	9aa85159e12f2782
+2497	12297	8022120601320081	CMakeFiles/edge_ai_vibration_cm33_core0.dir/edge_ai_vibration/peripherals.c.obj	ad413aa16667dc13
+2390	12304	8022120600246875	CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj	4d8dda40f651c3d4
+2433	12323	8022120600668775	CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/feature_extraction.c.obj	121129f0aedc54d7
+2472	12329	8022120601042735	CMakeFiles/edge_ai_vibration_cm33_core0.dir/ai/anomaly_detector.c.obj	630a5dc28e69b85d
+1403	12353	8022120590355004	CMakeFiles/edge_ai_vibration_cm33_core0.dir/app/main.c.obj	db96afbe68ab220e
+12353	17754	8022120699875008	edge_ai_vibration_cm33_core0.elf	677559473225d5d0
+1369	5381	8022121369377951	CMakeFiles/edge_ai_vibration_cm33_core0.dir/dsp/fft_engine.c.obj	4d8dda40f651c3d4
+5383	7587	8022121409475535	edge_ai_vibration_cm33_core0.elf	677559473225d5d0

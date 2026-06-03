@@ -24,7 +24,8 @@ void extract_features(void)
     arm_max_f32(fft_magnitude, FFT_SIZE / 2U, &feature_fft_peak, &max_index);
 
     PRINTF("--- Feature Results ---\r\n");
-    PRINTF("RMS Value: %.4f\r\n", (double)feature_rms);
-    PRINTF("FFT Peak: %.4f at index %lu\r\n", (double)feature_fft_peak, max_index);
+    print_float_4("RMS Value: ", feature_rms, "\r\n");
+    print_float_4("FFT Peak: ", feature_fft_peak, "");
+    PRINTF(" at index %u\r\n", (unsigned int)max_index);
     PRINTF("Features extraction complete\r\n");
 }

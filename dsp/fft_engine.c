@@ -10,6 +10,7 @@
 float fft_output[FFT_SIZE];
 
 static arm_rfft_fast_instance_f32 fft_instance;
+static float fft_input[FFT_SIZE];
 static uint8_t fft_initialized = 0U;
 
 void run_fft(void)
@@ -23,7 +24,12 @@ void run_fft(void)
     }
 
     PRINTF(">>> Running FFT...\r\n");
-    arm_rfft_fast_f32(&fft_instance, signal_buffer, fft_output, 0);
+    for (int i = 0; i < FFT_SIZE; i++)
+    {
+        fft_input[i] = signal_buffer[i];
+    }
+
+    arm_rfft_fast_f32(&fft_instance, fft_input, fft_output, 0);
 
     // Calculate magnitudes
     float max_magnitude = 0.0f;
@@ -40,5 +46,5 @@ void run_fft(void)
         }
     }
     
-    PRINTF("FFT complete. Max magnitude (squared): %.4f\r\n", max_magnitude);
+    print_float_4("FFT complete. Max magnitude (squared): ", max_magnitude, "\r\n");
 }

@@ -13,7 +13,7 @@ void detect_anomaly(void)
     int max_index = 0;
 
     PRINTF("\n=== ANOMALY DETECTION START ===\r\n");
-    PRINTF("Threshold: %.4f\r\n", threshold);
+    print_float_4("Threshold: ", threshold, "\r\n");
     PRINTF("Buffer Size: %d\r\n", FFT_SIZE);
 
     for (int i = 0; i < FFT_SIZE; i++)
@@ -29,17 +29,18 @@ void detect_anomaly(void)
         {
             PRINTF("\n!!! ANOMALY DETECTED !!!\r\n");
             PRINTF("Index: %d\r\n", i);
-            PRINTF("Value: %.4f\r\n", signal_buffer[i]);
-            PRINTF("Threshold: %.4f\r\n", threshold);
-            PRINTF("Deviation: %.4f\r\n", signal_buffer[i] - threshold);
+            print_float_4("Value: ", signal_buffer[i], "\r\n");
+            print_float_4("Threshold: ", threshold, "\r\n");
+            print_float_4("Deviation: ", signal_buffer[i] - threshold, "\r\n");
             PRINTF("=== ANOMALY DETECTION END ===\r\n\n");
             return;
         }
     }
 
     PRINTF("Signal NORMAL\r\n");
-    PRINTF("Max Value: %.4f at index %d\r\n", max_value, max_index);
-    PRINTF("RMS Feature: %.4f\r\n", feature_rms);
-    PRINTF("FFT Peak: %.4f\r\n", feature_fft_peak);
+    print_float_4("Max Value: ", max_value, "");
+    PRINTF(" at index %d\r\n", max_index);
+    print_float_4("RMS Feature: ", feature_rms, "\r\n");
+    print_float_4("FFT Peak: ", feature_fft_peak, "\r\n");
     PRINTF("=== ANOMALY DETECTION END ===\r\n\n");
 }
