@@ -7,9 +7,9 @@
 #define DSP_H
 
 #include "fsl_debug_console.h"
+#include "fft_engine.h"
 #include <stdint.h>
 
-#define FFT_SIZE 256
 #define SIGNAL_ENABLE_ANOMALY 1
 #define SIGNAL_ANOMALY_START 120
 #define SIGNAL_ANOMALY_END 130
@@ -46,7 +46,6 @@ static inline void print_float_4(const char *prefix, float value, const char *su
 }
 
 void generate_signal(void);
-void run_fft(void);
 void extract_features(void);
 
 #endif /* DSP_H */

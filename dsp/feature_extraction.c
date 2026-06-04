@@ -13,19 +13,15 @@ float feature_fft_peak = 0.0f;
 
 void extract_features(void)
 {
-    uint32_t max_index = 0U;
-
     PRINTF(">>> Extracting features...\r\n");
 
     arm_rms_f32(signal_buffer, FFT_SIZE, &feature_rms);
-
-    fft_magnitude[0] = (fft_output[0] >= 0.0f) ? fft_output[0] : -fft_output[0];
-    arm_cmplx_mag_f32(&fft_output[2], &fft_magnitude[1], (FFT_SIZE / 2U) - 1U);
-    arm_max_f32(fft_magnitude, FFT_SIZE / 2U, &feature_fft_peak, &max_index);
+    feature_fft_peak = fft_latest_result.peak_magnitude;
 
     PRINTF("--- Feature Results ---\r\n");
     print_float_4("RMS Value: ", feature_rms, "\r\n");
     print_float_4("FFT Peak: ", feature_fft_peak, "");
-    PRINTF(" at index %u\r\n", (unsigned int)max_index);
+    PRINTF(" at index %u", (unsigned int)fft_latest_result.peak_index);
+    print_float_4(" (", fft_latest_result.peak_frequency, " Hz)\r\n");
     PRINTF("Features extraction complete\r\n");
 }
