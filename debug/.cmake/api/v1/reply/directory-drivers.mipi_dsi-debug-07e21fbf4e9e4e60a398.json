@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drivers/mipi_dsi",
+		"source" : "C:/Users/A544483/Desktop/NXP/frdm_mcxn947/mcuxsdk/drivers/mipi_dsi"
+	}
+}

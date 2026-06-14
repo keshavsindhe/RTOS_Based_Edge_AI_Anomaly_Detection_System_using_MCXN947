@@ -4,24 +4,25 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 #include "arm_math.h"
-#include "dsp.h"
+#include "../include/dsp.h"
+#include "../include/feature_extractor.h"
 #include "fsl_debug_console.h"
 
 float fft_magnitude[FFT_SIZE / 2];
-float feature_rms = 0.0f;
-float feature_fft_peak = 0.0f;
+feature_vector_t features_vector = {0};
 
 void extract_features(void)
 {
     PRINTF(">>> Extracting features...\r\n");
 
-    arm_rms_f32(signal_buffer, FFT_SIZE, &feature_rms);
-    feature_fft_peak = fft_latest_result.peak_magnitude;
+    /* Extract all features from signal buffer */
+    features_vector = ExtractFeatures(
+        signal_buffer,
+        FFT_SIZE,
+        fft_latest_result.peak_magnitude,
+        fft_latest_result.peak_frequency
+    );
 
-    PRINTF("--- Feature Results ---\r\n");
-    print_float_4("RMS Value: ", feature_rms, "\r\n");
-    print_float_4("FFT Peak: ", feature_fft_peak, "");
-    PRINTF(" at index %u", (unsigned int)fft_latest_result.peak_index);
-    print_float_4(" (", fft_latest_result.peak_frequency, " Hz)\r\n");
-    PRINTF("Features extraction complete\r\n");
+    /* Print feature vector */
+    PrintFeatureVector(&features_vector);
 }

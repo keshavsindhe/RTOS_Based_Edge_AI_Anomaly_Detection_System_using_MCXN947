@@ -1,0 +1,17 @@
+C:/Users/A544483/Desktop/NXP/frdm_mcxn947/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.h:1492:20:CLOCK_EnableClock	24	static
+C:/Users/A544483/Desktop/NXP/frdm_mcxn947/mcuxsdk/drivers/lpflexcomm/lpi2c/fsl_lpi2c.h:545:20:LPI2C_MasterReset	16	static
+C:/Users/A544483/Desktop/NXP/frdm_mcxn947/mcuxsdk/drivers/port/fsl_port.h:360:20:PORT_SetPinConfig	32	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:24:20:MPU6050_StatusCodeToString	16	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:58:13:MPU6050_ParseMSR	16	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:77:13:MPU6050_DumpLPI2CRegs	32	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:96:13:MPU6050_TransferRegister	72	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:162:13:MPU6050_I2C_Init	48	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:278:6:MPU6050_WriteRegister	32	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:293:6:MPU6050_ReadRegister	24	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:315:6:MPU6050_Init	72	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:423:6:MPU6050_PrintDiagnostics	16	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:464:6:MPU6050_ReadAccel	40	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:489:6:MPU6050_ConvertToG	16	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:497:6:CollectSensorSamples	32	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:530:6:MPU6050_TestAddress	48	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/mpu6050.c:581:6:MPU6050_ScanAddresses	16	static

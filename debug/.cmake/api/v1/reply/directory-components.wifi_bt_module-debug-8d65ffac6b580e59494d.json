@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/wifi_bt_module",
+		"source" : "C:/Users/A544483/Desktop/NXP/frdm_mcxn947/mcuxsdk/components/wifi_bt_module"
+	}
+}

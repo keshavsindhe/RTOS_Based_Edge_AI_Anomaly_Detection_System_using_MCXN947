@@ -12,29 +12,17 @@ include(${SdkRootDirPath}/cmake/extension/mcux.cmake)
 
 project(edge_ai_vibration LANGUAGES C CXX ASM PROJECT_BOARD_PORT_PATH ${board_root}/${board}/demo_apps/hello_world)
 
+add_compile_definitions(I2C_RETRY_TIMES=1000000)
+
 
 include(${SdkRootDirPath}/CMakeLists.txt)
 
 
 mcux_add_source(
-    SOURCES app/main.c
-            edge_ai_vibration.c
-            dsp/signal_generator.c
-            dsp/fft_engine.c
-            dsp/feature_extraction.c
-            ai/anomaly_detector.c
-            edge_ai_vibration/peripherals.c
-)
-
-mcux_add_source(
-    SOURCES edge_ai_vibration/peripherals.h
+    SOURCES app/main_sensor.c app/ai_classifier.c app/task_scheduler.c app/task_signal.c app/task_fft.c app/task_feature.c app/task_ai.c dsp/signal_generator.c dsp/fft_engine.c dsp/feature_extraction.c dsp/feature_extractor.c
 )
 
 mcux_add_include(
-    INCLUDES edge_ai_vibration
-    INCLUDES include
-    INCLUDES dsp
-    INCLUDES ai
     INCLUDES ${app_board_core_dir}/cm33_core0
 )
 

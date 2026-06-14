@@ -1,5 +1,0 @@
-C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/Core/Include/core_cm33.h:2555:22:__NVIC_SetPriority	16	static
-C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/arch/arm/CMSIS/Core/Include/core_cm33.h:3108:26:SysTick_Config	16	static
-C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.h:1492:20:CLOCK_EnableClock	24	static
-C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/drivers/gpio/fsl_gpio.h:345:20:GPIO_PinWrite	24	static
-C:/Users/User/OneDrive/Desktop/embedded_ai/sdks/frdm_mcxn947_blank_sdk/mcuxsdk/examples/_boards/frdmmcxn947/demo_apps/led_blinky/cm33_core0/hardware_init.c:15:6:BOARD_InitHardware	8	static

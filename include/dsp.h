@@ -8,6 +8,7 @@
 
 #include "fsl_debug_console.h"
 #include "fft_engine.h"
+#include "feature_extractor.h"
 #include <stdint.h>
 
 #define SIGNAL_ENABLE_ANOMALY 1
@@ -17,8 +18,7 @@
 extern float signal_buffer[FFT_SIZE];
 extern float fft_output[FFT_SIZE];
 extern float fft_magnitude[FFT_SIZE / 2];
-extern float feature_rms;
-extern float feature_fft_peak;
+extern feature_vector_t features_vector;
 
 static inline void print_float_4(const char *prefix, float value, const char *suffix)
 {

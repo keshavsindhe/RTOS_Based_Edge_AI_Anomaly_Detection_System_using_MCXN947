@@ -40,7 +40,7 @@ void detect_anomaly(void)
     PRINTF("Signal NORMAL\r\n");
     print_float_4("Max Value: ", max_value, "");
     PRINTF(" at index %d\r\n", max_index);
-    print_float_4("RMS Feature: ", feature_rms, "\r\n");
-    print_float_4("FFT Peak: ", feature_fft_peak, "\r\n");
+    print_float_4("RMS Feature: ", features_vector.rms, "\r\n");
+    print_float_4("FFT Peak: ", features_vector.peak_magnitude, "\r\n");
     PRINTF("=== ANOMALY DETECTION END ===\r\n\n");
 }

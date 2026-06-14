@@ -16,8 +16,8 @@ CONFIG_MCUX_PRJSEG_module.board.clock=y
 CONFIG_MCUX_HAS_PRJSEG_module.board.pinmux_sel=y
 # CONFIG_MCUX_PRJSEG_module.board.pinmux_board_folder is not set
 # CONFIG_MCUX_PRJSEG_module.board.pinmux_board_core_folder is not set
-# CONFIG_MCUX_PRJSEG_module.board.pinmux_project_folder is not set
-CONFIG_MCUX_PRJSEG_module.board.pinmux_project_core_folder=y
+CONFIG_MCUX_PRJSEG_module.board.pinmux_project_folder=y
+# CONFIG_MCUX_PRJSEG_module.board.pinmux_project_core_folder is not set
 # CONFIG_MCUX_PRJSEG_module.board.pinmux_customize_folder is not set
 # CONFIG_MCUX_HAS_PRJSEG_module.board.peripheral_sel is not set
 CONFIG_MCUX_HAS_PRJSEG_project.use_hw_app=y

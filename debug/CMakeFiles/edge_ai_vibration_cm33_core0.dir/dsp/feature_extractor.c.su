@@ -1,0 +1,7 @@
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/feature_extractor.c:14:7:CalculateMean	24	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/feature_extractor.c:37:7:CalculateVariance	32	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/feature_extractor.c:62:7:CalculateStdDeviation	24	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/feature_extractor.c:73:7:CalculateEnergy	24	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/feature_extractor.c:97:10:CalculateZeroCrossingRate	24	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/feature_extractor.c:122:18:ExtractFeatures	80	static
+C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/feature_extractor.c:151:6:PrintFeatureVector	152	static

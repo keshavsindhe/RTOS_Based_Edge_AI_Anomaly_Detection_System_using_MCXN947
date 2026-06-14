@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 #include "arm_math.h"
-#include "dsp.h"
+#include "../include/dsp.h"
 #include "fsl_debug_console.h"
 
 float signal_buffer[FFT_SIZE];

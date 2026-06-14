@@ -1,1 +1,1 @@
-C:\Users\User\OneDrive\Desktop\embedded_ai\edge_ai_vibration\debug\mcux_config.h
+C:\Users\A544483\Desktop\Edge\RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947\debug\mcux_config.h

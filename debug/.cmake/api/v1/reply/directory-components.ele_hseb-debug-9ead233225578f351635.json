@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "components/ele_hseb",
+		"source" : "C:/Users/A544483/Desktop/NXP/frdm_mcxn947/mcuxsdk/components/ele_hseb"
+	}
+}

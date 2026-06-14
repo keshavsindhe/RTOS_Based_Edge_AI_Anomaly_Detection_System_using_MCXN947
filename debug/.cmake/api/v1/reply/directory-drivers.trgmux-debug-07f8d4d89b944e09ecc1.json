@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "drivers/trgmux",
+		"source" : "C:/Users/A544483/Desktop/NXP/frdm_mcxn947/mcuxsdk/drivers/trgmux"
+	}
+}
