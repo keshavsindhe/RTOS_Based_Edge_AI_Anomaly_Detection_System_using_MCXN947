@@ -18,8 +18,10 @@ add_compile_definitions(I2C_RETRY_TIMES=1000000)
 include(${SdkRootDirPath}/CMakeLists.txt)
 
 
+# Dataset Generator Build (Part 9 - TinyML Dataset Preparation)
+# To restore multitasking build, replace with: app/main_sensor.c app/ai_classifier.c app/task_scheduler.c app/task_signal.c app/task_fft.c app/task_feature.c app/task_ai.c dsp/signal_generator.c dsp/fft_engine.c dsp/feature_extraction.c dsp/feature_extractor.c
 mcux_add_source(
-    SOURCES app/main_sensor.c app/ai_classifier.c app/task_scheduler.c app/task_signal.c app/task_fft.c app/task_feature.c app/task_ai.c dsp/signal_generator.c dsp/fft_engine.c dsp/feature_extraction.c dsp/feature_extractor.c
+    SOURCES app/main_dataset_generator.c app/dataset_generator.c app/feature_logger.c dsp/fft_engine.c dsp/feature_extraction.c dsp/feature_extractor.c
 )
 
 mcux_add_include(
