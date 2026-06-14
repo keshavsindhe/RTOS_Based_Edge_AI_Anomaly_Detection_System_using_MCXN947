@@ -1,3 +1,0 @@
-C:/Users/A544483/Desktop/NXP/frdm_mcxn947/mcuxsdk/devices/MCX/MCXN/MCXN947/drivers/fsl_clock.h:1492:20:CLOCK_EnableClock	24	static
-C:/Users/A544483/Desktop/NXP/frdm_mcxn947/mcuxsdk/drivers/port/fsl_port.h:360:20:PORT_SetPinConfig	32	static
-C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/edge_ai_vibration/peripherals.c:15:6:BOARD_InitPeripherals	40	static

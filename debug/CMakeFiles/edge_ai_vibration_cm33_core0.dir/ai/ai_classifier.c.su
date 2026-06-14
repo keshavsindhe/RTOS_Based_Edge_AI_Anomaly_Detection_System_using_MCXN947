@@ -1,4 +1,0 @@
-C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ai/ai_classifier.c:21:6:AI_Classifier_Init	16	static
-C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ai/ai_classifier.c:46:17:AI_Classifier_Predict	16	static
-C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ai/ai_classifier.c:92:13:AI_Classifier_GetStateName	16	static
-C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ai/ai_classifier.c:113:6:AI_Classifier_PrintResults	16	static
