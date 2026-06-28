@@ -1,0 +1,6 @@
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ml/tinyml_engine_stub.c:23:5:TinyML_Init	8	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ml/tinyml_engine_stub.c:37:5:TinyML_Infer	24	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ml/tinyml_engine_stub.c:88:10:TinyML_GetInputSize	4	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ml/tinyml_engine_stub.c:96:10:TinyML_GetOutputSize	4	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ml/tinyml_engine_stub.c:104:6:TinyML_PrintResult	24	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ml/tinyml_engine_stub.c:135:10:TinyML_GetMemoryUsage	4	static

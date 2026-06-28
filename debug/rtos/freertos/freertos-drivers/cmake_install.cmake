@@ -39,106 +39,106 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/dspi/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/dspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/ecspi/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/ecspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/i2c/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/i2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/ii2c/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/ii2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/iuart/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/iuart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpc_i2c/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpc_i2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpc_vspi/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpc_vspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpc_vusart/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpc_vusart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpi2c/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpi2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpspi/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpuart/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpflexcomm/lpuart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpi2c/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpi2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpsci/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpsci/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpspi/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpuart/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/lpuart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/smartcard/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/smartcard/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/spi/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/spi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/uart/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/uart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/flexcomm/usart/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/flexcomm/usart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/flexcomm/spi/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/flexcomm/spi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/flexcomm/i2c/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/rtos/freertos/freertos-drivers/flexcomm/i2c/cmake_install.cmake")
 endif()
 

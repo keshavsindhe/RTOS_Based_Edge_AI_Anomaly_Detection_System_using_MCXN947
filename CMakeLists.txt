@@ -18,10 +18,25 @@ add_compile_definitions(I2C_RETRY_TIMES=1000000)
 include(${SdkRootDirPath}/CMakeLists.txt)
 
 
-# Dataset Generator Build (Part 9 - TinyML Dataset Preparation)
-# To restore multitasking build, replace with: app/main_sensor.c app/ai_classifier.c app/task_scheduler.c app/task_signal.c app/task_fft.c app/task_feature.c app/task_ai.c dsp/signal_generator.c dsp/fft_engine.c dsp/feature_extraction.c dsp/feature_extractor.c
+# PART 11 - TinyML Integration Build (Pipeline Structure with STUB Inference)
+# Uses stub TinyML engine for testing pipeline without TensorFlow Lite library
+# Full pipeline: Signal → FFT → Feature → TinyML(stub) → UART
+# To enable real TFLite: replace tinyml_engine_stub.c with tinyml_engine.c + model_data.cc
 mcux_add_source(
-    SOURCES app/main_dataset_generator.c app/dataset_generator.c app/feature_logger.c dsp/fft_engine.c dsp/feature_extraction.c dsp/feature_extractor.c
+    SOURCES 
+    app/main_tinyml.c 
+    app/task_scheduler.c 
+    app/task_signal.c 
+    app/task_fft.c 
+    app/task_feature.c 
+    dsp/signal_generator.c 
+    dsp/fft_engine.c 
+    dsp/feature_extraction.c 
+    dsp/feature_extractor.c
+    ml/tinyml_task.c
+    ml/tinyml_engine_stub.c    # STUB version (no TFLite dependency)
+    # ml/tinyml_engine.c        # Real TFLite version (requires TensorFlow Lite Micro)
+    # ml/model_data.cc           # Trained model weights
 )
 
 mcux_add_include(

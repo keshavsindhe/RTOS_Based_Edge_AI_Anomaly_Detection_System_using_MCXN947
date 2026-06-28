@@ -32,7 +32,7 @@ void FeatureLogger_LogFeatures(const feature_vector_t *features,
                                 uint32_t sample_id)
 {
     /* Print sample ID */
-    PRINTF("%lu,", (unsigned long)sample_id);
+    PRINTF("%u,", sample_id);
     
     /* Print RMS */
     print_float_4("", features->rms, ",");

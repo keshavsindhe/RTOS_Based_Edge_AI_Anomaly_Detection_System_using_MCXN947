@@ -1,0 +1,5 @@
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/include/dsp.h:23:20:print_float_4	72	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/signal_generator.c:31:6:generate_signal	40	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/signal_generator.c:100:6:update_operating_mode	8	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/signal_generator.c:126:9:get_current_mode	4	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/dsp/signal_generator.c:134:10:get_mode_cycle_count	4	static

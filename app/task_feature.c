@@ -33,19 +33,24 @@ void FeatureTask(void *pvParameters)
         /* Extract features from signal buffer */
         extract_features();
         
-        /* Prepare message with key features */
+        /* Prepare message with ALL 7 features for TinyML */
         feature_msg.ready = 1;
         feature_msg.rms = features_vector.rms;
+        feature_msg.mean = features_vector.mean;
+        feature_msg.variance = features_vector.variance;
+        feature_msg.std_dev = features_vector.std_dev;
         feature_msg.energy = features_vector.energy;
+        feature_msg.peak_magnitude = features_vector.peak_magnitude;
         feature_msg.peak_frequency = features_vector.peak_frequency;
         
         PRINTF("[FeatureTask] RMS = ");
-        print_float_4("", feature_msg.rms, "\r\n");
+        print_float_4("", feature_msg.rms, " | Energy = ");
+        print_float_4("", feature_msg.energy, "\r\n");
         
-        /* Send features to AI classification task */
+        /* Send features to TinyML task */
         if (QueueSend(xFeatureQueue, &feature_msg))
         {
-            PRINTF("[FeatureTask] → Sent to AITask\r\n\r\n");
+            PRINTF("[FeatureTask] → Sent to TinyMLTask (7 features)\r\n\r\n");
         }
         else
         {

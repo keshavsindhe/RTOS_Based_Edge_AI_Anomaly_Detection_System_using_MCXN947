@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/components/storage/stream/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/components/storage/stream/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/A544483/Desktop/Edge/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/components/storage/flash_map/cmake_install.cmake")
+  include("C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/debug/components/storage/flash_map/cmake_install.cmake")
 endif()
 

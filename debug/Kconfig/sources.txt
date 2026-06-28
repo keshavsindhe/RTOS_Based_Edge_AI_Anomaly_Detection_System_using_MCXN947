@@ -1,4 +1,3 @@
-C:\Users\A544483\Desktop\Edge\RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947\debug\Kconfig\Kconfig.modules
 C:\Users\A544483\Desktop\NXP\frdm_mcxn947\mcuxsdk\Kconfig
 C:\Users\A544483\Desktop\NXP\frdm_mcxn947\mcuxsdk\Kconfig.mcuxpresso
 C:\Users\A544483\Desktop\NXP\frdm_mcxn947\mcuxsdk\arch\arm\CMSIS\Kconfig
@@ -726,3 +725,4 @@ C:\Users\A544483\Desktop\NXP\frdm_mcxn947\mcuxsdk\rtos\freertos\freertos-drivers
 C:\Users\A544483\Desktop\NXP\frdm_mcxn947\mcuxsdk\rtos\freertos\freertos-drivers\spi\Kconfig
 C:\Users\A544483\Desktop\NXP\frdm_mcxn947\mcuxsdk\rtos\freertos\freertos-drivers\uart\Kconfig
 C:\Users\A544483\Desktop\NXP\frdm_mcxn947\mcuxsdk\rtos\freertos\freertos-kernel\Kconfig
+C:\Users\A544483\Desktop\T3\RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947\debug\Kconfig\Kconfig.modules

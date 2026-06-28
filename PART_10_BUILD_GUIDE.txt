@@ -1,0 +1,172 @@
+# PART 10 - TinyML Test Build Configuration
+
+## Files Created
+✓ app/main_tinyml_test.c         - Standalone inference test
+✓ ml/model_data.h                - Model header (links to model_data.cc)
+✓ ml/tinyml_engine.h             - TFLite Micro API
+✓ ml/tinyml_engine.c             - TFLite Micro implementation
+✓ ml/tinyml_task.c               - FreeRTOS task (for future integration)
+
+## Build Steps
+
+### 1. Add TensorFlow Lite Micro Library
+Download TFLite Micro for Cortex-M33:
+- Source: https://github.com/tensorflow/tflite-micro
+- Add to project: third_party/tflite-micro/
+
+### 2. Update CMakeLists.txt
+Add these lines:
+
+```cmake
+# TensorFlow Lite Micro
+set(TFLITE_MICRO_DIR ${CMAKE_SOURCE_DIR}/third_party/tflite-micro)
+include_directories(${TFLITE_MICRO_DIR})
+
+# ML Source Files
+file(GLOB ML_SOURCES "ml/*.c" "ml/*.cc")
+target_sources(${MCUX_SDK_PROJECT_NAME} PRIVATE ${ML_SOURCES})
+
+# C++ Support (for TFLite)
+set_source_files_properties(
+    ml/tinyml_engine.c
+    PROPERTIES LANGUAGE CXX
+)
+
+# Link Math Library
+target_link_libraries(${MCUX_SDK_PROJECT_NAME} m)
+```
+
+### 3. Build Test Program
+```powershell
+# Clean build
+cmake --build debug --clean-first
+
+# Or rebuild
+cmake --build debug
+```
+
+### 4. Flash to FRDM-MCXN947
+Use MCUXpresso IDE or J-Link:
+```
+JLinkExe -device MCXN947 -if SWD -speed 4000
+> loadfile debug/edge_ai_vibration.elf
+> r
+> g
+```
+
+### 5. Monitor UART Output
+- Port: Auto-detect (COM port)
+- Baud: 115200
+- Data: 8N1
+
+Expected Output:
+```
+========================================
+  PART 10: TinyML Inference Test
+  Target: FRDM-MCXN947
+========================================
+
+========================================
+  STEP 1: Initialize TinyML Runtime
+========================================
+
+[TinyML] Initializing inference engine...
+[TinyML] Model loaded (version 3)
+[TinyML] Model size: 3264 bytes
+[TinyML] Operations registered
+[TinyML] Tensor arena allocated: 16384 bytes
+[TinyML] Input tensor: type=9, bytes=32
+[TinyML] Output tensor: type=9, bytes=12
+[TinyML] Arena memory used: XXXX / 16384 bytes
+[TinyML] Initialization complete!
+
+[TinyML] ✓ Model Loaded Successfully
+[TinyML] ✓ Input Tensor Size = 8
+[TinyML] ✓ Output Classes = 3
+[TinyML] ✓ TinyML Ready
+
+========================================
+  STEP 2: Run Fixed Input Tests
+========================================
+
+========================================
+Test Case 1: Test #1 - NORMAL Operation
+========================================
+Description: Healthy machine operation with low vibration
+Expected Prediction: NORMAL
+
+  Input Features:
+    [0] RMS:             0.8700
+    [1] Mean:            0.0100
+    [2] Variance:        0.0700
+    [3] Std Dev:         0.0800
+    [4] Energy:          194.0000
+    [5] Peak Magnitude:  113.0000
+    [6] Peak Frequency:  39.0600 Hz
+    [7] ZCR:             0.1000
+
+[TinyML] Running inference...
+[TinyML] Inference complete
+
+  Raw Output Tensor:
+    Class 0 (NORMAL):  0.XXXXXX
+    Class 1 (WARNING): 0.XXXXXX
+    Class 2 (FAULT):   0.XXXXXX
+
+  Prediction Results:
+    Predicted Class:   NORMAL
+    Confidence:        X.XXXX (XX.X%)
+
+  ✓ PASS: Prediction matches expected class
+
+========================================
+Test Case 2: Test #2 - FAULT Condition
+========================================
+[... similar output ...]
+
+========================================
+  TEST SUMMARY
+========================================
+Total Tests:  2
+Passed:       2
+Failed:       0
+
+✓ ALL TESTS PASSED
+✓ TinyML inference verified on FRDM-MCXN947
+✓ Ready for FreeRTOS integration
+========================================
+```
+
+## Verification Checklist
+□ Model loaded successfully
+□ Tensor arena allocated (16 KB)
+□ Input tensor shape = (1, 8)
+□ Output tensor shape = (1, 3)
+□ Inference completes without errors
+□ Test #1 predicts NORMAL
+□ Test #2 predicts FAULT
+□ Confidence scores printed
+□ No memory errors
+
+## Next Steps (Part 11)
+1. Integrate TinyMLTask into FreeRTOS scheduler
+2. Connect FeatureQueue to TinyML task
+3. Replace rule-based AI with neural network
+4. Full pipeline test: Signal → FFT → Features → TinyML
+
+## Troubleshooting
+
+### Build Errors
+- Missing TFLite headers: Add tflite-micro to include path
+- Linker errors: Enable C++ compilation for .c files using TFLite
+- Math library: Add -lm to linker flags
+
+### Runtime Errors
+- Model version mismatch: Regenerate model_data.cc with correct TFLite version
+- Tensor allocation failed: Increase TINYML_TENSOR_ARENA_SIZE
+- Wrong predictions: Check feature scaling and model input order
+
+### UART Issues
+- No output: Check UART baud rate (115200)
+- Garbled text: Check clock configuration
+- Incomplete output: Increase UART buffer size

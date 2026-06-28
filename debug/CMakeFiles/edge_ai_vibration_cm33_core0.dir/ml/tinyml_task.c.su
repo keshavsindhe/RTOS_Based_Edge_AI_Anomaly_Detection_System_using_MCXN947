@@ -1,0 +1,4 @@
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ml/tinyml_task.c:28:20:get_mode_name	16	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ml/tinyml_task.c:48:6:TinyMLTask	152	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ml/tinyml_task.c:239:6:TinyMLTask_GetStats	16	static
+C:/Users/A544483/Desktop/T3/RTOS_Based_Edge_AI_Anomaly_Detection_System_using_MCXN947/ml/tinyml_task.c:255:6:TinyMLTask_ResetStats	8	static

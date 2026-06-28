@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 #include "../include/feature_extractor.h"
+#include "../include/dsp.h"
 #include "arm_math.h"
 #include "fsl_debug_console.h"
 #include <math.h>
@@ -158,37 +159,36 @@ void PrintFeatureVector(const feature_vector_t *features)
 
     PRINTF("=== FEATURE VECTOR ===\r\n\n");
 
-    /* Helper macro for printing floats with 4 decimal places */
-#define PRINT_FEATURE(label, value) \
-    do { \
-        int32_t scaled = (int32_t)((value * 10000.0f) + ((value >= 0.0f) ? 0.5f : -0.5f)); \
-        const char *sign = ""; \
-        if (scaled < 0) { sign = "-"; scaled = -scaled; } \
-        unsigned int whole = (unsigned int)(scaled / 10000); \
-        unsigned int frac = (unsigned int)(scaled % 10000); \
-        PRINTF("%-15s: %s%u.%u%u%u%u\r\n", \
-               label, sign, whole, \
-               frac / 1000U, (frac / 100U) % 10U, \
-               (frac / 10U) % 10U, frac % 10U); \
-    } while(0)
-
-    PRINT_FEATURE("RMS", features->rms);
-    PRINT_FEATURE("Mean", features->mean);
-    PRINT_FEATURE("Variance", features->variance);
-    PRINT_FEATURE("Std Dev", features->std_dev);
-    PRINT_FEATURE("Energy", features->energy);
-    PRINT_FEATURE("Peak Magnitude", features->peak_magnitude);
-    PRINTF("%-15s: ", "Peak Frequency");
-
-    /* Print peak frequency with proper formatting */
-    int32_t freq_scaled = (int32_t)((features->peak_frequency * 100.0f) + 0.5f);
-    unsigned int freq_whole = (unsigned int)(freq_scaled / 100);
-    unsigned int freq_frac = (unsigned int)(freq_scaled % 100);
-    PRINTF("%u.%u%u Hz\r\n", freq_whole, freq_frac / 10U, freq_frac % 10U);
-
-    PRINTF("%-15s: %u\r\n", "ZCR", (unsigned int)features->zcr);
+    /* Print RMS */
+    PRINTF("RMS: ");
+    print_float_4("", features->rms, "\r\n");
+    
+    /* Print Mean */
+    PRINTF("Mean: ");
+    print_float_4("", features->mean, "\r\n");
+    
+    /* Print Variance */
+    PRINTF("Variance: ");
+    print_float_4("", features->variance, "\r\n");
+    
+    /* Print Std Dev */
+    PRINTF("Std Dev: ");
+    print_float_4("", features->std_dev, "\r\n");
+    
+    /* Print Energy */
+    PRINTF("Energy: ");
+    print_float_4("", features->energy, "\r\n");
+    
+    /* Print Peak Magnitude */
+    PRINTF("Peak Magnitude: ");
+    print_float_4("", features->peak_magnitude, "\r\n");
+    
+    /* Print Peak Frequency */
+    PRINTF("Peak Frequency: ");
+    print_float_4("", features->peak_frequency, " Hz\r\n");
+    
+    /* Print ZCR */
+    PRINTF("ZCR: %u\r\n", (unsigned int)features->zcr);
 
     PRINTF("\nFeature extraction complete\r\n\r\n");
-
-#undef PRINT_FEATURE
 }
